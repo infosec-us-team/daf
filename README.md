@@ -2,13 +2,15 @@
 
 Every day a Web3 protocol pushes to GitHub a patch to a vulnerability or a new feature. *DAF* is a daily activity feed of bug fixes and code changes in GitHub repositories listed as assets in scope for bug bounty programs in Immunefi.
 
+Website: [https://infosec-us-team.github.io/daf/frontend-daf/src/](https://infosec-us-team.github.io/daf/frontend-daf/src/)
+
 > At the time of writing, there are **427 GitHub repositories** with a bug bounty program in Immunefi.
 
 <img src="./readme-resources/ui1.png" alt="" style="width:600px; height:auto;">
 
 # How to use it
 
-Visit the website once a day to see what's new and discover security patches by searching for the words "fix" and "bug" in the title of pull requests and commit messages.
+Visit the [website](https://infosec-us-team.github.io/daf/frontend-daf/src/) once a day to see what's new and discover security patches by searching for the words "fix" and "bug" in the title of pull requests and commit messages.
 
 # Features
 
@@ -22,10 +24,11 @@ Every day a static website is created listing every bug bounty program that upda
 
 # Table of Contents
 
-- [Overall Architecture](overall-architecture)
-- [UI Design Goal](ui-design-goal)
-- [Run locally](run-locally)
-- [Using a cron job to run periodically](using-a-cron-job-to-run-periodically)
+- [Overall Architecture](#overall-architecture)
+- [UI Design Goal](#ui-design-goal)
+- [Run locally](#run-locally)
+- [Using a cron job to run periodically](#using-a-cron-job-to-run-periodically)
+- [Maintenance](#maintenance)
 
 # Overall Architecture
 
@@ -129,3 +132,9 @@ Add a job:
 ```
 
 This runs the tool daily at 1am.
+
+# Maintenance
+
+There is no guarantee that the code in this repository will be maintained if Immunefi or GitHub change their APIs, nor that the static site at GitHub-Pages (`https://infosec-us-team.github.io/daf/frontend-daf/src/`) will continue to be updated daily.
+
+We recommend cloning the code and running the tool on your own server.
