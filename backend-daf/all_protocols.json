@@ -1760,15 +1760,6 @@
       "minReward": 10000,
       "fixedReward": null,
       "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "critical",
-      "maxReward": 1000000,
-      "minReward": 10000,
-      "fixedReward": null,
-      "payout": null,
       "assetType": "blockchain_dlt",
       "level": null
     },
@@ -1797,6 +1788,15 @@
       "fixedReward": 1000,
       "payout": null,
       "assetType": "blockchain_dlt",
+      "level": null
+    },
+    {
+      "severity": "critical",
+      "maxReward": 1000000,
+      "minReward": 10000,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "smart_contract",
       "level": null
     },
     {
@@ -3352,6 +3352,7 @@
     }
   ],
   "assetUrls": [
+    "https://github.com/berachain/airdrop-contracts",
     "https://github.com/berachain/beacon-kit",
     "https://github.com/berachain/contracts"
   ]
