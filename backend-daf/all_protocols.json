@@ -52,7 +52,7 @@
     {
       "severity": "critical",
       "maxReward": 10000000,
-      "minReward": null,
+      "minReward": 150000,
       "fixedReward": null,
       "payout": null,
       "assetType": "smart_contract",
@@ -61,7 +61,7 @@
     {
       "severity": "high",
       "maxReward": 100000,
-      "minReward": null,
+      "minReward": 5000,
       "fixedReward": null,
       "payout": null,
       "assetType": "smart_contract",
@@ -7660,33 +7660,6 @@
   "assetUrls": [
     "https://github.com/nodlecode/chain",
     "https://github.com/NodleCode/rollup"
-  ]
-},
-{
-  "protocol": "metalswap",
-  "logo": "https://images.ctfassets.net/t3wqy70tc3bv/1V2qLefMPkiAuR0numHlBO/bc2b481781e33c0b15ef91283f5c3ce4/logoD_copy.png",
-  "rewards": [
-    {
-      "severity": "high",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 5000,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "critical",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 20000,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    }
-  ],
-  "assetUrls": [
-    "https://github.com/DEFI-Foundation/swapsv2"
   ]
 },
 {
