@@ -2324,6 +2324,62 @@
   ]
 },
 {
+  "protocol": "symbiotic",
+  "logo": "https://images.ctfassets.net/t3wqy70tc3bv/3JOu1jGRL3ble8qzc1DwcS/cc699f3aea75cafc031a7fa283606620/symbiotic.png",
+  "rewards": [
+    {
+      "severity": "critical",
+      "maxReward": 500000,
+      "minReward": 100000,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "smart_contract",
+      "level": null
+    },
+    {
+      "severity": "high",
+      "maxReward": 100000,
+      "minReward": 50000,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "smart_contract",
+      "level": null
+    },
+    {
+      "severity": "medium",
+      "maxReward": null,
+      "minReward": null,
+      "fixedReward": 10000,
+      "payout": null,
+      "assetType": "smart_contract",
+      "level": null
+    },
+    {
+      "severity": "critical",
+      "maxReward": null,
+      "minReward": null,
+      "fixedReward": 20000,
+      "payout": null,
+      "assetType": "websites_and_applications",
+      "level": null
+    },
+    {
+      "severity": "high",
+      "maxReward": null,
+      "minReward": null,
+      "fixedReward": 5000,
+      "payout": null,
+      "assetType": "websites_and_applications",
+      "level": null
+    }
+  ],
+  "assetUrls": [
+    "https://github.com/symbioticfi/hooks",
+    "https://github.com/symbioticfi/metadata-mainnet",
+    "https://github.com/symbioticfi/metadata-validation-scripts"
+  ]
+},
+{
   "protocol": "omni-network",
   "logo": "https://images.ctfassets.net/t3wqy70tc3bv/6UezFvf3vSbzbQ9pomlLa7/f6e23a39129f6b419e16e52c12d32121/omni.png",
   "rewards": [
@@ -6300,7 +6356,7 @@
     {
       "severity": "critical",
       "maxReward": 75000,
-      "minReward": 50000,
+      "minReward": 30000,
       "fixedReward": null,
       "payout": null,
       "assetType": "smart_contract",
