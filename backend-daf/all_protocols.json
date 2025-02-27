@@ -46,6 +46,51 @@
   ]
 },
 {
+  "protocol": "reserve",
+  "logo": "https://images.ctfassets.net/t3wqy70tc3bv/2N1kPNfWAcD0jloxOqF4Cf/6e27b7ac7afb4180a3ade1e9d17bc4d5/reserve__1_.png",
+  "rewards": [
+    {
+      "severity": "critical",
+      "maxReward": 10000000,
+      "minReward": 100000,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "smart_contract",
+      "level": null
+    },
+    {
+      "severity": "high",
+      "maxReward": 100000,
+      "minReward": 10000,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "smart_contract",
+      "level": null
+    },
+    {
+      "severity": "medium",
+      "maxReward": null,
+      "minReward": null,
+      "fixedReward": 5000,
+      "payout": null,
+      "assetType": "smart_contract",
+      "level": null
+    },
+    {
+      "severity": "low",
+      "maxReward": null,
+      "minReward": null,
+      "fixedReward": 1000,
+      "payout": null,
+      "assetType": "smart_contract",
+      "level": null
+    }
+  ],
+  "assetUrls": [
+    "https://github.com/reserve-protocol/protocol"
+  ]
+},
+{
   "protocol": "sky",
   "logo": "https://images.ctfassets.net/t3wqy70tc3bv/29CWfnhFWZUDZ0w83H0wj6/30bb70512c04338d29bd3bd5a261ad2c/Sky_Ecosystem.png",
   "rewards": [
@@ -213,51 +258,6 @@
     "https://github.com/marsfoundation/sparklend",
     "https://github.com/marsfoundation/spark-psm",
     "https://github.com/marsfoundation/xchain-ssr-oracle"
-  ]
-},
-{
-  "protocol": "reserve",
-  "logo": "https://images.ctfassets.net/t3wqy70tc3bv/35hHjlQvvtVCRmIQ7Rkpyr/4f05beeb5dbf513fcb910b41ae08e288/Logo_R_Small.png",
-  "rewards": [
-    {
-      "severity": "critical",
-      "maxReward": 10000000,
-      "minReward": 100000,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "high",
-      "maxReward": 100000,
-      "minReward": 10000,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "medium",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 5000,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "low",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 1000,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    }
-  ],
-  "assetUrls": [
-    "https://github.com/reserve-protocol/protocol"
   ]
 },
 {
@@ -3548,6 +3548,24 @@
       "level": null
     },
     {
+      "severity": "medium",
+      "maxReward": null,
+      "minReward": null,
+      "fixedReward": 10000,
+      "payout": null,
+      "assetType": "blockchain_dlt",
+      "level": null
+    },
+    {
+      "severity": "low",
+      "maxReward": null,
+      "minReward": null,
+      "fixedReward": 5000,
+      "payout": null,
+      "assetType": "blockchain_dlt",
+      "level": null
+    },
+    {
       "severity": "critical",
       "maxReward": 250000,
       "minReward": 100000,
@@ -3613,7 +3631,16 @@
   ],
   "assetUrls": [
     "https://github.com/flare-foundation/bug-bounty",
-    "https://github.com/flare-foundation/go-flare"
+    "https://github.com/flare-foundation/fast-updates",
+    "https://github.com/flare-foundation/fdc-client",
+    "https://github.com/flare-foundation/flare-system-c-chain-indexer",
+    "https://github.com/flare-foundation/flare-system-client",
+    "https://github.com/flare-foundation/FTSO-Scaling",
+    "https://github.com/flare-foundation/go-flare",
+    "https://github.com/flare-foundation/verifier-indexer-api",
+    "https://github.com/flare-foundation/verifier-indexer-framework",
+    "https://github.com/flare-foundation/verifier-utxo-indexer",
+    "https://github.com/flare-foundation/verifier-xrp-indexer"
   ]
 },
 {
@@ -4977,7 +5004,7 @@
 },
 {
   "protocol": "sns",
-  "logo": "https://images.ctfassets.net/t3wqy70tc3bv/7wRTt9jXbVOgqiyaczuZX4/cb5c6126b33d7b210b9e347f58588a22/SNSMARK_white.png",
+  "logo": "https://images.ctfassets.net/t3wqy70tc3bv/1kEyT5bORMraZGNMuv44VH/40ed6657d9aaaf73946ff4a0660590b7/SNS_Color_logomark_on_Black_200px__1_.png",
   "rewards": [
     {
       "severity": "critical",
