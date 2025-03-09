@@ -3245,6 +3245,15 @@
   "logo": "https://images.ctfassets.net/t3wqy70tc3bv/1S8ggfDmWMZTN2T6wcMNaS/b56ce9699295511536c8e970e550ee9c/Defisaver-logo.jpg",
   "rewards": [
     {
+      "severity": "critical",
+      "maxReward": 350000,
+      "minReward": null,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "smart_contract",
+      "level": null
+    },
+    {
       "severity": "high",
       "maxReward": null,
       "minReward": null,
@@ -3269,15 +3278,6 @@
       "fixedReward": 20000,
       "payout": null,
       "assetType": "websites_and_applications",
-      "level": null
-    },
-    {
-      "severity": "critical",
-      "maxReward": 350000,
-      "minReward": null,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "smart_contract",
       "level": null
     }
   ],
