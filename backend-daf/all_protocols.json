@@ -2809,78 +2809,7 @@
     "https://github.com/sei-protocol/sei-tendermint"
   ]
 },
-{
-  "protocol": "thresholdnetwork",
-  "logo": "https://images.ctfassets.net/t3wqy70tc3bv/5sXJAYkgjf0BtH2uarlVA3/1f1993cf792814921c5c289b57004768/token-symbol-purple.svg",
-  "rewards": [
-    {
-      "severity": "critical",
-      "maxReward": 500000,
-      "minReward": 10000,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "high",
-      "maxReward": 50000,
-      "minReward": 5000,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "medium",
-      "maxReward": 5000,
-      "minReward": 1000,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "low",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 1000,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "critical",
-      "maxReward": 10000,
-      "minReward": 5000,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "websites_and_applications",
-      "level": null
-    },
-    {
-      "severity": "high",
-      "maxReward": 5000,
-      "minReward": 1000,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "websites_and_applications",
-      "level": null
-    },
-    {
-      "severity": "medium",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 1000,
-      "payout": null,
-      "assetType": "websites_and_applications",
-      "level": null
-    }
-  ],
-  "assetUrls": [
-    "https://github.com/keep-network/tbtc-v2"
-  ]
-},
+,
 {
   "protocol": "liquidswap",
   "logo": "https://images.ctfassets.net/t3wqy70tc3bv/6ouY5l4d7afrMjwgyVbc9M/434953fe64e93da4a96332c2df7d41c3/Pontem_logo_sign.png",
