@@ -338,6 +338,7 @@
     }
   ],
   "assetUrls": [
+    "https://github.com/wormhole-foundation/multigov",
     "https://github.com/wormhole-foundation/native-token-transfers",
     "https://github.com/wormhole-foundation/wormhole",
     "https://github.com/wormhole-foundation/wormhole-circle-integration"
@@ -471,6 +472,15 @@
       "level": null
     },
     {
+      "severity": "critical",
+      "maxReward": 2500000,
+      "minReward": null,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "smart_contract",
+      "level": null
+    },
+    {
       "severity": "high",
       "maxReward": 200000,
       "minReward": null,
@@ -531,15 +541,6 @@
       "fixedReward": 1000,
       "payout": null,
       "assetType": "websites_and_applications",
-      "level": null
-    },
-    {
-      "severity": "critical",
-      "maxReward": 2500000,
-      "minReward": null,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "smart_contract",
       "level": null
     }
   ],
