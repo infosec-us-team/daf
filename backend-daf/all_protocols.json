@@ -3332,6 +3332,78 @@
   ]
 },
 {
+  "protocol": "fassets",
+  "logo": "https://images.ctfassets.net/t3wqy70tc3bv/6RvAn0eXVoZdyCg9bNkFXK/f86c8ae6a66353298cff60617734a793/Flare.png",
+  "rewards": [
+    {
+      "severity": "critical",
+      "maxReward": null,
+      "minReward": null,
+      "fixedReward": 50000,
+      "payout": null,
+      "assetType": "blockchain_dlt",
+      "level": null
+    },
+    {
+      "severity": "high",
+      "maxReward": 30000,
+      "minReward": 10000,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "blockchain_dlt",
+      "level": null
+    },
+    {
+      "severity": "medium",
+      "maxReward": null,
+      "minReward": null,
+      "fixedReward": 5000,
+      "payout": null,
+      "assetType": "blockchain_dlt",
+      "level": null
+    },
+    {
+      "severity": "critical",
+      "maxReward": 250000,
+      "minReward": 50000,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "smart_contract",
+      "level": null
+    },
+    {
+      "severity": "high",
+      "maxReward": 50000,
+      "minReward": 10000,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "smart_contract",
+      "level": null
+    },
+    {
+      "severity": "medium",
+      "maxReward": null,
+      "minReward": null,
+      "fixedReward": 5000,
+      "payout": null,
+      "assetType": "smart_contract",
+      "level": null
+    },
+    {
+      "severity": "low",
+      "maxReward": null,
+      "minReward": null,
+      "fixedReward": 1000,
+      "payout": null,
+      "assetType": "smart_contract",
+      "level": null
+    }
+  ],
+  "assetUrls": [
+    "https://github.com/flare-labs-ltd/fasset-bots"
+  ]
+},
+{
   "protocol": "berachain",
   "logo": "https://images.ctfassets.net/t3wqy70tc3bv/28aHSz4GDuMcAuSR8VmJ4P/b943afe474489ec74fab8cf921f17118/NEW_Berachain.png",
   "rewards": [
