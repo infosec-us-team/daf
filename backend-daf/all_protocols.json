@@ -87,7 +87,8 @@
     }
   ],
   "assetUrls": [
-    "https://github.com/reserve-protocol/protocol"
+    "https://github.com/reserve-protocol/protocol",
+    "https://github.com/reserve-protocol/reserve-index-dtf"
   ]
 },
 {
@@ -6082,11 +6083,11 @@
     }
   ],
   "assetUrls": [
+    "https://github.com/mux-world/mux3-protocol",
     "https://github.com/mux-world/mux-aggregator-protocol",
     "https://github.com/mux-world/mux-degen-protocol",
     "https://github.com/mux-world/muxlp-tranches-protocol",
-    "https://github.com/mux-world/mux-protocol",
-    "https://github.com/mux-world/mux-staking-protocol"
+    "https://github.com/mux-world/mux-protocol"
   ]
 },
 {
