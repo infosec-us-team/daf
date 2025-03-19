@@ -546,7 +546,6 @@
     }
   ],
   "assetUrls": [
-    "https://github.com/edgeandnode/billing-contracts",
     "https://github.com/edgeandnode/gateway",
     "https://github.com/graphprotocol/agora",
     "https://github.com/graphprotocol/AllocationOpt.jl",
