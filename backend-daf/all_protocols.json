@@ -6314,123 +6314,6 @@
   ]
 },
 {
-  "protocol": "forta",
-  "logo": "https://images.ctfassets.net/t3wqy70tc3bv/7AbtICUyrsiNIzIHam91pr/3b36623100ca7d2a8307bbc0d4b6f040/Forta_logo.jpeg",
-  "rewards": [
-    {
-      "severity": "critical",
-      "maxReward": 80000,
-      "minReward": 30000,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "critical",
-      "maxReward": 80000,
-      "minReward": 30000,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "blockchain_dlt",
-      "level": null
-    },
-    {
-      "severity": "high",
-      "maxReward": 15000,
-      "minReward": 8000,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "blockchain_dlt",
-      "level": null
-    },
-    {
-      "severity": "medium",
-      "maxReward": 3000,
-      "minReward": 1000,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "blockchain_dlt",
-      "level": null
-    },
-    {
-      "severity": "low",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 1000,
-      "payout": null,
-      "assetType": "blockchain_dlt",
-      "level": null
-    },
-    {
-      "severity": "high",
-      "maxReward": 15000,
-      "minReward": 8000,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "medium",
-      "maxReward": 3000,
-      "minReward": 1000,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "low",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 1000,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "critical",
-      "maxReward": 30000,
-      "minReward": 10000,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "websites_and_applications",
-      "level": null
-    },
-    {
-      "severity": "high",
-      "maxReward": 8000,
-      "minReward": 4000,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "websites_and_applications",
-      "level": null
-    },
-    {
-      "severity": "medium",
-      "maxReward": 3000,
-      "minReward": 1000,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "websites_and_applications",
-      "level": null
-    },
-    {
-      "severity": "low",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 1000,
-      "payout": null,
-      "assetType": "websites_and_applications",
-      "level": null
-    }
-  ],
-  "assetUrls": [
-    "https://github.com/forta-network/forta-node"
-  ]
-},
-{
   "protocol": "ruscet",
   "logo": "https://images.ctfassets.net/t3wqy70tc3bv/4yvoesEDWjksI0pVPGcdQs/91a08b7333d828ece9d676cd9d0718a2/ruscet.png",
   "rewards": [
@@ -8232,6 +8115,96 @@
   ],
   "assetUrls": [
     "https://github.com/yamatoprotocol/core"
+  ]
+},
+{
+  "protocol": "forta",
+  "logo": "https://images.ctfassets.net/t3wqy70tc3bv/7AbtICUyrsiNIzIHam91pr/3b36623100ca7d2a8307bbc0d4b6f040/Forta_logo.jpeg",
+  "rewards": [
+    {
+      "severity": "critical",
+      "maxReward": 10000,
+      "minReward": 8000,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "blockchain_dlt",
+      "level": null
+    },
+    {
+      "severity": "high",
+      "maxReward": 4000,
+      "minReward": 2000,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "blockchain_dlt",
+      "level": null
+    },
+    {
+      "severity": "medium",
+      "maxReward": 3000,
+      "minReward": 1000,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "blockchain_dlt",
+      "level": null
+    },
+    {
+      "severity": "critical",
+      "maxReward": 80000,
+      "minReward": 30000,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "smart_contract",
+      "level": null
+    },
+    {
+      "severity": "high",
+      "maxReward": 15000,
+      "minReward": 8000,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "smart_contract",
+      "level": null
+    },
+    {
+      "severity": "medium",
+      "maxReward": 3000,
+      "minReward": 1000,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "smart_contract",
+      "level": null
+    },
+    {
+      "severity": "critical",
+      "maxReward": 30000,
+      "minReward": 10000,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "websites_and_applications",
+      "level": null
+    },
+    {
+      "severity": "high",
+      "maxReward": 8000,
+      "minReward": 4000,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "websites_and_applications",
+      "level": null
+    },
+    {
+      "severity": "medium",
+      "maxReward": 3000,
+      "minReward": 1000,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "websites_and_applications",
+      "level": null
+    }
+  ],
+  "assetUrls": [
+    "https://github.com/forta-network/forta-node"
   ]
 },
 {
