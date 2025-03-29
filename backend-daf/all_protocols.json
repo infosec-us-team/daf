@@ -4649,51 +4649,6 @@
   ]
 },
 {
-  "protocol": "termstructurelabs",
-  "logo": "https://images.ctfassets.net/t3wqy70tc3bv/5TIaWxbM1WD1RGRYe2e6iu/115df1c11ffc0241cf375e7aa010e799/izMPc8Ke_400x400.png",
-  "rewards": [
-    {
-      "severity": "critical",
-      "maxReward": 100000,
-      "minReward": 50000,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "high",
-      "maxReward": 50000,
-      "minReward": 5000,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "critical",
-      "maxReward": 10000,
-      "minReward": 5000,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "websites_and_applications",
-      "level": null
-    },
-    {
-      "severity": "high",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 2500,
-      "payout": null,
-      "assetType": "websites_and_applications",
-      "level": null
-    }
-  ],
-  "assetUrls": [
-    "https://github.com/term-structure/TS-Circom"
-  ]
-},
-{
   "protocol": "orderlynetwork",
   "logo": "https://images.ctfassets.net/t3wqy70tc3bv/7lTtLkBbBPlnMIrlDObNWW/b7e2aea26d0ecd4b3e0f6d092ee52100/logo.png",
   "rewards": [
@@ -6452,6 +6407,33 @@
   ]
 },
 {
+  "protocol": "termstructurelabs",
+  "logo": "https://images.ctfassets.net/t3wqy70tc3bv/6rB2UnvCtcaZKo2NLotubD/287fcccf956bc219626bbc5792446bfa/TermMax-Logo-transparent.png",
+  "rewards": [
+    {
+      "severity": "critical",
+      "maxReward": 50000,
+      "minReward": 25000,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "smart_contract",
+      "level": null
+    },
+    {
+      "severity": "high",
+      "maxReward": 25000,
+      "minReward": 5000,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "smart_contract",
+      "level": null
+    }
+  ],
+  "assetUrls": [
+    "https://github.com/term-structure/termmax-contract"
+  ]
+},
+{
   "protocol": "skatefi",
   "logo": "https://images.ctfassets.net/t3wqy70tc3bv/2ByPTsOCo1ihurbQOM0PMK/3cab96ed1b2b59f5c28e8462e9b4c7df/Range-logo.jpeg",
   "rewards": [
@@ -6606,15 +6588,6 @@
       "minReward": null,
       "fixedReward": 50000,
       "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "critical",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 50000,
-      "payout": null,
       "assetType": "blockchain_dlt",
       "level": null
     },
@@ -6643,6 +6616,15 @@
       "fixedReward": 1000,
       "payout": null,
       "assetType": "blockchain_dlt",
+      "level": null
+    },
+    {
+      "severity": "critical",
+      "maxReward": null,
+      "minReward": null,
+      "fixedReward": 50000,
+      "payout": null,
+      "assetType": "smart_contract",
       "level": null
     },
     {
@@ -7568,6 +7550,15 @@
   "logo": "https://images.ctfassets.net/t3wqy70tc3bv/4tl7aEnEwJyvmUxPKqR2KH/2ad9232b3e2e462c88aa27262ce93deb/OpenZeppelin_Logo.jpeg",
   "rewards": [
     {
+      "severity": "critical",
+      "maxReward": 25000,
+      "minReward": 5000,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "smart_contract",
+      "level": null
+    },
+    {
       "severity": "high",
       "maxReward": 5000,
       "minReward": 2500,
@@ -7590,15 +7581,6 @@
       "maxReward": null,
       "minReward": null,
       "fixedReward": 1000,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "critical",
-      "maxReward": 25000,
-      "minReward": 5000,
-      "fixedReward": null,
       "payout": null,
       "assetType": "smart_contract",
       "level": null
