@@ -2984,51 +2984,6 @@
   ]
 },
 {
-  "protocol": "driftprotocol",
-  "logo": "https://images.ctfassets.net/t3wqy70tc3bv/295bRNp7R842rstlHYsEUq/5c7ed337835e630a209c547e3885a1fe/Drift_Logo_Circular__4__Small.png",
-  "rewards": [
-    {
-      "severity": "critical",
-      "maxReward": 500000,
-      "minReward": null,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "high",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 50000,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "medium",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 25000,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "low",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 5000,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    }
-  ],
-  "assetUrls": [
-    "https://github.com/drift-labs/protocol-v2"
-  ]
-},
-{
   "protocol": "acala",
   "logo": "https://images.ctfassets.net/t3wqy70tc3bv/2yQpKoZm8AOR2wLqYzZa9j/fd4701886536ad5828e0ff05edd4771d/acala_logo.png",
   "rewards": [
@@ -4368,33 +4323,6 @@
   ],
   "assetUrls": [
     "https://github.com/tranchess/contract-core"
-  ]
-},
-{
-  "protocol": "nftx",
-  "logo": "https://images.ctfassets.net/t3wqy70tc3bv/2znSWgmnYpypWSL8mndKTA/e07cab4e385ad1f79fb7c02dbad5d3a8/NFTX_logo_copy.png",
-  "rewards": [
-    {
-      "severity": "high",
-      "maxReward": 40000,
-      "minReward": 5000,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "critical",
-      "maxReward": 150000,
-      "minReward": 50000,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    }
-  ],
-  "assetUrls": [
-    "https://github.com/NFTX-project/nftx-protocol-v3"
   ]
 },
 {
