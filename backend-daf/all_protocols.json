@@ -811,15 +811,6 @@
       "level": null
     },
     {
-      "severity": "low",
-      "maxReward": 5000,
-      "minReward": 1000,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "blockchain_dlt",
-      "level": null
-    },
-    {
       "severity": "critical",
       "maxReward": 100000,
       "minReward": 10000,
@@ -858,17 +849,21 @@
   ],
   "assetUrls": [
     "https://github.com/babylonlabs-io/babylon",
+    "https://github.com/babylonlabs-io/babylon-proto-ts",
+    "https://github.com/babylonlabs-io/babylon-staking-indexer",
     "https://github.com/babylonlabs-io/btc-staker",
     "https://github.com/babylonlabs-io/btc-staking-ts",
     "https://github.com/babylonlabs-io/cli-tools",
+    "https://github.com/babylonlabs-io/core-ui",
+    "https://github.com/babylonlabs-io/covenant-emulator",
     "https://github.com/babylonlabs-io/covenant-signer",
     "https://github.com/babylonlabs-io/finality-provider",
-    "https://github.com/babylonlabs-io/networks",
     "https://github.com/babylonlabs-io/simple-staking",
     "https://github.com/babylonlabs-io/staking-api-service",
     "https://github.com/babylonlabs-io/staking-expiry-checker",
-    "https://github.com/babylonlabs-io/staking-indexer",
-    "https://github.com/babylonlabs-io/staking-queue-client"
+    "https://github.com/babylonlabs-io/staking-queue-client",
+    "https://github.com/babylonlabs-io/vigilante",
+    "https://github.com/babylonlabs-io/wallet-connector"
   ]
 },
 {
