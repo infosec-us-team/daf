@@ -3671,6 +3671,15 @@
   "logo": "https://images.ctfassets.net/t3wqy70tc3bv/5MjWJd5jcGHtNLtAZnYNN0/0c111c048c5b2452457756f172948bb9/pyth-network-pyth-logo.png",
   "rewards": [
     {
+      "severity": "low",
+      "maxReward": null,
+      "minReward": null,
+      "fixedReward": 1000,
+      "payout": null,
+      "assetType": "websites_and_applications",
+      "level": null
+    },
+    {
       "severity": "critical",
       "maxReward": 250000,
       "minReward": 50000,
@@ -3729,15 +3738,6 @@
       "maxReward": null,
       "minReward": null,
       "fixedReward": 2500,
-      "payout": null,
-      "assetType": "websites_and_applications",
-      "level": null
-    },
-    {
-      "severity": "low",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 1000,
       "payout": null,
       "assetType": "websites_and_applications",
       "level": null
@@ -6499,127 +6499,6 @@
   ],
   "assetUrls": [
     "https://github.com/metastreet-labs/metastreet-contracts-v2"
-  ]
-},
-{
-  "protocol": "sommelier",
-  "logo": "https://images.ctfassets.net/t3wqy70tc3bv/6wpLwpWt9BhmcV8bJV0JSg/46263f2599f8f9e293646ed77c4831f8/Sommelier_logo.png",
-  "rewards": [
-    {
-      "severity": "critical",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 50000,
-      "payout": null,
-      "assetType": "blockchain_dlt",
-      "level": null
-    },
-    {
-      "severity": "high",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 25000,
-      "payout": null,
-      "assetType": "blockchain_dlt",
-      "level": null
-    },
-    {
-      "severity": "medium",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 5000,
-      "payout": null,
-      "assetType": "blockchain_dlt",
-      "level": null
-    },
-    {
-      "severity": "low",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 1000,
-      "payout": null,
-      "assetType": "blockchain_dlt",
-      "level": null
-    },
-    {
-      "severity": "critical",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 50000,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "high",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 25000,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "medium",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 5000,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "low",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 1000,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "critical",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 10000,
-      "payout": null,
-      "assetType": "websites_and_applications",
-      "level": null
-    },
-    {
-      "severity": "high",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 5000,
-      "payout": null,
-      "assetType": "websites_and_applications",
-      "level": null
-    },
-    {
-      "severity": "medium",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 2500,
-      "payout": null,
-      "assetType": "websites_and_applications",
-      "level": null
-    },
-    {
-      "severity": "low",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 1000,
-      "payout": null,
-      "assetType": "websites_and_applications",
-      "level": null
-    }
-  ],
-  "assetUrls": [
-    "https://github.com/PeggyJV/cellar-contracts",
-    "https://github.com/PeggyJV/cellar-staking",
-    "https://github.com/PeggyJV/cellar-v1_5",
-    "https://github.com/PeggyJV/gravity-bridge",
-    "https://github.com/PeggyJV/sommelier"
   ]
 },
 {
