@@ -3671,15 +3671,6 @@
   "logo": "https://images.ctfassets.net/t3wqy70tc3bv/5MjWJd5jcGHtNLtAZnYNN0/0c111c048c5b2452457756f172948bb9/pyth-network-pyth-logo.png",
   "rewards": [
     {
-      "severity": "low",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 1000,
-      "payout": null,
-      "assetType": "websites_and_applications",
-      "level": null
-    },
-    {
       "severity": "critical",
       "maxReward": 250000,
       "minReward": 50000,
@@ -3738,6 +3729,15 @@
       "maxReward": null,
       "minReward": null,
       "fixedReward": 2500,
+      "payout": null,
+      "assetType": "websites_and_applications",
+      "level": null
+    },
+    {
+      "severity": "low",
+      "maxReward": null,
+      "minReward": null,
+      "fixedReward": 1000,
       "payout": null,
       "assetType": "websites_and_applications",
       "level": null
@@ -8038,6 +8038,15 @@
   "logo": "https://images.ctfassets.net/t3wqy70tc3bv/1OsrVnYDfPNy8a3qWntuk4/9d26ef24ff56bf9ff6c71a6c1e90c84d/MoneyonChain-logo.png",
   "rewards": [
     {
+      "severity": "critical",
+      "maxReward": 10000,
+      "minReward": null,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "smart_contract",
+      "level": null
+    },
+    {
       "severity": "high",
       "maxReward": 5000,
       "minReward": null,
@@ -8063,15 +8072,6 @@
       "payout": null,
       "assetType": "smart_contract",
       "level": null
-    },
-    {
-      "severity": "critical",
-      "maxReward": 10000,
-      "minReward": null,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
     }
   ],
   "assetUrls": [
@@ -8080,8 +8080,7 @@
     "https://github.com/money-on-chain/main-RBTC-contract",
     "https://github.com/money-on-chain/price-feeder",
     "https://github.com/money-on-chain/py_Moneyonchain",
-    "https://github.com/money-on-chain/RDOC-Contract",
-    "https://github.com/money-on-chain/sc-moc-decentralized-exchange"
+    "https://github.com/money-on-chain/RDOC-Contract"
   ]
 },
 {
