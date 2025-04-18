@@ -1928,56 +1928,6 @@
   ]
 },
 {
-  "protocol": "benddao",
-  "logo": "https://images.ctfassets.net/t3wqy70tc3bv/4PIWMMp8ZqlAH9Z3xYsglc/741d9f126b4f7ab43f9ebe3a6a85717c/BendDAO_logo.png",
-  "rewards": [
-    {
-      "severity": "critical",
-      "maxReward": 1000000,
-      "minReward": null,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "high",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 10000,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "medium",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 2000,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "low",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 1000,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    }
-  ],
-  "assetUrls": [
-    "https://github.com/BendDAO/bend-apestaking-v2",
-    "https://github.com/BendDAO/bend-downpayment",
-    "https://github.com/BendDAO/bend-exchange-protocol",
-    "https://github.com/BendDAO/bend-lending-protocol",
-    "https://github.com/BendDAO/bend-v2",
-    "https://github.com/BoundNFT/boundnft-protocol"
-  ]
-},
-{
   "protocol": "flamingofinance",
   "logo": "https://images.ctfassets.net/t3wqy70tc3bv/2F4VGKaboWEaBfj1yfdpj/5597728d3c7bbd22b3814cb79d71ccde/Flamingo_Finance_logo.jpeg",
   "rewards": [
