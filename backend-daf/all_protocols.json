@@ -6070,33 +6070,6 @@
   ]
 },
 {
-  "protocol": "ruscet",
-  "logo": "https://images.ctfassets.net/t3wqy70tc3bv/4yvoesEDWjksI0pVPGcdQs/91a08b7333d828ece9d676cd9d0718a2/ruscet.png",
-  "rewards": [
-    {
-      "severity": "critical",
-      "maxReward": 75000,
-      "minReward": 30000,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "high",
-      "maxReward": 10000,
-      "minReward": 2000,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    }
-  ],
-  "assetUrls": [
-    "https://github.com/burralabs/ruscet-contracts"
-  ]
-},
-{
   "protocol": "horizen",
   "logo": "https://images.ctfassets.net/t3wqy70tc3bv/2rnWAKLVaJaIUw2o5BluPY/8f8432f986a560f6e1a20e5d7d99ce7f/Horizen-icon-dark-21e75d19af5bdad4b2faeebdcfef90bf.png",
   "rewards": [
