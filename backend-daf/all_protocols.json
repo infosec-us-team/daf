@@ -552,6 +552,8 @@
     "https://github.com/graphprotocol/block-oracle",
     "https://github.com/graphprotocol/graph-node",
     "https://github.com/graphprotocol/indexer",
+    "https://github.com/graphprotocol/indexer-rs",
+    "https://github.com/semiotic-ai/timeline-aggregation-protocol",
     "https://github.com/streamingfast/firehose-core",
     "https://github.com/streamingfast/firehose-ethereum",
     "https://github.com/streamingfast/substreams"
