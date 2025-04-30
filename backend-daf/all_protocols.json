@@ -7002,51 +7002,6 @@
   ]
 },
 {
-  "protocol": "geniusyield",
-  "logo": "https://images.ctfassets.net/t3wqy70tc3bv/6YFKEKWaLwdH1t6IXgJXBb/3c4e0d346b5a33d3a6018c3f8c6eb513/Green_GEN_with_logo.png",
-  "rewards": [
-    {
-      "severity": "critical",
-      "maxReward": 25000,
-      "minReward": 15000,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "high",
-      "maxReward": 10000,
-      "minReward": 6000,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "critical",
-      "maxReward": 15000,
-      "minReward": 10000,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "websites_and_applications",
-      "level": null
-    },
-    {
-      "severity": "high",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 3000,
-      "payout": null,
-      "assetType": "websites_and_applications",
-      "level": null
-    }
-  ],
-  "assetUrls": [
-    "https://github.com/geniusyield/dex-contracts-api"
-  ]
-},
-{
   "protocol": "coreum",
   "logo": "https://images.ctfassets.net/t3wqy70tc3bv/crJXSyRL6Phpmff7hq91J/cbd0406e1e8ddf23fa6a41837ef228e0/3174316_original.png",
   "rewards": [
@@ -7955,7 +7910,8 @@
     }
   ],
   "assetUrls": [
-    "https://github.com/deri-protocol/deriprotocol-v4"
+    "https://github.com/deri-protocol/deriprotocol-v4",
+    "https://github.com/deri-protocol/deriprotocol-v4-supra"
   ]
 },
 {
@@ -8006,6 +7962,51 @@
     "https://github.com/money-on-chain/price-feeder",
     "https://github.com/money-on-chain/py_Moneyonchain",
     "https://github.com/money-on-chain/RDOC-Contract"
+  ]
+},
+{
+  "protocol": "geniusyield",
+  "logo": "https://images.ctfassets.net/t3wqy70tc3bv/4h3De2WibDI0xBVeGVSiE9/5f39219ae4e3c97c67041760f6385fd6/Genius_Yield.png",
+  "rewards": [
+    {
+      "severity": "critical",
+      "maxReward": 8000,
+      "minReward": 5000,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "smart_contract",
+      "level": null
+    },
+    {
+      "severity": "high",
+      "maxReward": 3000,
+      "minReward": 2000,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "smart_contract",
+      "level": null
+    },
+    {
+      "severity": "critical",
+      "maxReward": 5000,
+      "minReward": 3000,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "websites_and_applications",
+      "level": null
+    },
+    {
+      "severity": "high",
+      "maxReward": null,
+      "minReward": null,
+      "fixedReward": 1000,
+      "payout": null,
+      "assetType": "websites_and_applications",
+      "level": null
+    }
+  ],
+  "assetUrls": [
+    "https://github.com/geniusyield/dex-contracts-api"
   ]
 },
 {
