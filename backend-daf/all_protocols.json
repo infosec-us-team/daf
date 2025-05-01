@@ -3962,6 +3962,90 @@
   ]
 },
 {
+  "protocol": "stacks",
+  "logo": "https://images.ctfassets.net/t3wqy70tc3bv/7rDt9WPKt1aTDNVmrLDaZ9/e8474a103962162a8e704ac863984684/stacks__1_.png",
+  "rewards": [
+    {
+      "severity": "critical",
+      "maxReward": 250000,
+      "minReward": null,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "blockchain_dlt",
+      "level": null
+    },
+    {
+      "severity": "high",
+      "maxReward": null,
+      "minReward": null,
+      "fixedReward": 25000,
+      "payout": null,
+      "assetType": "blockchain_dlt",
+      "level": null
+    },
+    {
+      "severity": "medium",
+      "maxReward": null,
+      "minReward": null,
+      "fixedReward": 5000,
+      "payout": null,
+      "assetType": "blockchain_dlt",
+      "level": null
+    },
+    {
+      "severity": "low",
+      "maxReward": null,
+      "minReward": null,
+      "fixedReward": 1000,
+      "payout": null,
+      "assetType": "blockchain_dlt",
+      "level": null
+    },
+    {
+      "severity": "critical",
+      "maxReward": 250000,
+      "minReward": null,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "smart_contract",
+      "level": null
+    },
+    {
+      "severity": "high",
+      "maxReward": null,
+      "minReward": null,
+      "fixedReward": 25000,
+      "payout": null,
+      "assetType": "smart_contract",
+      "level": null
+    },
+    {
+      "severity": "medium",
+      "maxReward": null,
+      "minReward": null,
+      "fixedReward": 5000,
+      "payout": null,
+      "assetType": "smart_contract",
+      "level": null
+    },
+    {
+      "severity": "low",
+      "maxReward": null,
+      "minReward": null,
+      "fixedReward": 1000,
+      "payout": null,
+      "assetType": "smart_contract",
+      "level": null
+    }
+  ],
+  "assetUrls": [
+    "https://github.com/stacks-network/stacks-blockchain",
+    "https://github.com/stacks-network/stacks-core",
+    "https://github.com/stacks-sbtc/sbtc",
+    "https://github.com/stacks-sbtc/wsts"
+  ]
+},
+{
   "protocol": "kadena",
   "logo": "https://images.ctfassets.net/t3wqy70tc3bv/22KYw7t13OwNlN78HQZOT2/e72741e9f86336a41e287fe67c9b8e53/2024_Kadena_Logo_Social.png",
   "rewards": [
@@ -5273,88 +5357,6 @@
   ],
   "assetUrls": [
     "https://github.com/pactfi/algorand-testbed"
-  ]
-},
-{
-  "protocol": "stacks",
-  "logo": "https://images.ctfassets.net/t3wqy70tc3bv/7rDt9WPKt1aTDNVmrLDaZ9/e8474a103962162a8e704ac863984684/stacks__1_.png",
-  "rewards": [
-    {
-      "severity": "critical",
-      "maxReward": 100000,
-      "minReward": null,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "blockchain_dlt",
-      "level": null
-    },
-    {
-      "severity": "high",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 5000,
-      "payout": null,
-      "assetType": "blockchain_dlt",
-      "level": null
-    },
-    {
-      "severity": "medium",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 1000,
-      "payout": null,
-      "assetType": "blockchain_dlt",
-      "level": null
-    },
-    {
-      "severity": "low",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 100,
-      "payout": null,
-      "assetType": "blockchain_dlt",
-      "level": null
-    },
-    {
-      "severity": "critical",
-      "maxReward": 100000,
-      "minReward": null,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "high",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 5000,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "medium",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 1000,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "low",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 100,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    }
-  ],
-  "assetUrls": [
-    "https://github.com/stacks-network/stacks-blockchain",
-    "https://github.com/stacks-network/stacks-core"
   ]
 },
 {
