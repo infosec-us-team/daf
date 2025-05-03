@@ -266,6 +266,15 @@
   "logo": "https://images.ctfassets.net/t3wqy70tc3bv/zjpjBpSpX6wiIdgfoLeKc/b7c1a836bbc7a4a850623ddee15f3158/wormhole-logo-full-color-rgb-2000px_72ppi__1_.png",
   "rewards": [
     {
+      "severity": "low",
+      "maxReward": 2000,
+      "minReward": null,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "smart_contract",
+      "level": null
+    },
+    {
       "severity": "critical",
       "maxReward": 5000000,
       "minReward": 100000,
@@ -323,15 +332,6 @@
       "severity": "medium",
       "maxReward": 10000,
       "minReward": 2000,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "low",
-      "maxReward": 2000,
-      "minReward": null,
       "fixedReward": null,
       "payout": null,
       "assetType": "smart_contract",
@@ -426,6 +426,7 @@
     "https://github.com/smartcontractkit/ccip",
     "https://github.com/smartcontractkit/ccip-owner-contracts",
     "https://github.com/smartcontractkit/chainlink",
+    "https://github.com/smartcontractkit/chainlink-evm",
     "https://github.com/smartcontractkit/chainlink-solana",
     "https://github.com/smartcontractkit/external-adapters-js",
     "https://github.com/smartcontractkit/libocr",
@@ -1605,73 +1606,6 @@
     "https://github.com/DistributedCollective/mynt",
     "https://github.com/DistributedCollective/sovryn-dapp",
     "https://github.com/DistributedCollective/zero-contracts"
-  ]
-},
-{
-  "protocol": "polygonzkevm",
-  "logo": "https://images.ctfassets.net/t3wqy70tc3bv/4HtvkOERB7FEW5uUNz22lB/2ba376a451814502754906d247e472e5/Polygon_zkEVM_logo_dark_copy.png",
-  "rewards": [
-    {
-      "severity": "critical",
-      "maxReward": 1000000,
-      "minReward": 50000,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "blockchain_dlt",
-      "level": null
-    },
-    {
-      "severity": "high",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 20000,
-      "payout": null,
-      "assetType": "blockchain_dlt",
-      "level": null
-    },
-    {
-      "severity": "medium",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 5000,
-      "payout": null,
-      "assetType": "blockchain_dlt",
-      "level": null
-    },
-    {
-      "severity": "critical",
-      "maxReward": 1000000,
-      "minReward": null,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "high",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 20000,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "medium",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 5000,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    }
-  ],
-  "assetUrls": [
-    "https://github.com/0xPolygonHermez/pilcom",
-    "https://github.com/0xPolygonHermez/pil-stark",
-    "https://github.com/0xPolygonHermez/zkevm-prover",
-    "https://github.com/0xPolygonHermez/zkevm-proverjs",
-    "https://github.com/0xPolygonHermez/zkevm-rom"
   ]
 },
 {
@@ -5059,6 +4993,73 @@
   ],
   "assetUrls": [
     "https://github.com/ethereum-push-notification-service/push-smart-contracts"
+  ]
+},
+{
+  "protocol": "polygonzkevm",
+  "logo": "https://images.ctfassets.net/t3wqy70tc3bv/4HtvkOERB7FEW5uUNz22lB/2ba376a451814502754906d247e472e5/Polygon_zkEVM_logo_dark_copy.png",
+  "rewards": [
+    {
+      "severity": "critical",
+      "maxReward": 100000,
+      "minReward": 20000,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "blockchain_dlt",
+      "level": null
+    },
+    {
+      "severity": "high",
+      "maxReward": null,
+      "minReward": null,
+      "fixedReward": 7000,
+      "payout": null,
+      "assetType": "blockchain_dlt",
+      "level": null
+    },
+    {
+      "severity": "medium",
+      "maxReward": null,
+      "minReward": null,
+      "fixedReward": 2000,
+      "payout": null,
+      "assetType": "blockchain_dlt",
+      "level": null
+    },
+    {
+      "severity": "critical",
+      "maxReward": 100000,
+      "minReward": 20000,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "smart_contract",
+      "level": null
+    },
+    {
+      "severity": "high",
+      "maxReward": null,
+      "minReward": null,
+      "fixedReward": 7000,
+      "payout": null,
+      "assetType": "smart_contract",
+      "level": null
+    },
+    {
+      "severity": "medium",
+      "maxReward": null,
+      "minReward": null,
+      "fixedReward": 2000,
+      "payout": null,
+      "assetType": "smart_contract",
+      "level": null
+    }
+  ],
+  "assetUrls": [
+    "https://github.com/0xPolygonHermez/pilcom",
+    "https://github.com/0xPolygonHermez/pil-stark",
+    "https://github.com/0xPolygonHermez/zkevm-prover",
+    "https://github.com/0xPolygonHermez/zkevm-proverjs",
+    "https://github.com/0xPolygonHermez/zkevm-rom"
   ]
 },
 {
