@@ -3901,7 +3901,6 @@
     }
   ],
   "assetUrls": [
-    "https://github.com/stacks-network/stacks-blockchain",
     "https://github.com/stacks-network/stacks-core",
     "https://github.com/stacks-sbtc/sbtc",
     "https://github.com/stacks-sbtc/wsts"
