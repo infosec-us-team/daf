@@ -1105,89 +1105,6 @@
   ]
 },
 {
-  "protocol": "degate",
-  "logo": "https://images.ctfassets.net/t3wqy70tc3bv/67fYbqNBbkrrWPxJsdB78q/96c2c9102034a4815435b434b6155fb2/DeGate_logo.jpeg",
-  "rewards": [
-    {
-      "severity": "critical",
-      "maxReward": 1110000,
-      "minReward": 100000,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "high",
-      "maxReward": 100000,
-      "minReward": 5000,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "medium",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 5000,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "low",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 1500,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "critical",
-      "maxReward": 100000,
-      "minReward": 5000,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "websites_and_applications",
-      "level": null
-    },
-    {
-      "severity": "high",
-      "maxReward": 5000,
-      "minReward": 2500,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "websites_and_applications",
-      "level": null
-    },
-    {
-      "severity": "medium",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 2500,
-      "payout": null,
-      "assetType": "websites_and_applications",
-      "level": null
-    },
-    {
-      "severity": "low",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 1000,
-      "payout": null,
-      "assetType": "websites_and_applications",
-      "level": null
-    }
-  ],
-  "assetUrls": [
-    "https://github.com/degatedev/degate-sdk-golang",
-    "https://github.com/degatedev/degate-sdk-python",
-    "https://github.com/degatedev/protocols"
-  ]
-},
-{
   "protocol": "zksyncera",
   "logo": "https://images.ctfassets.net/t3wqy70tc3bv/5C91MGheTJXJfhYXd7Jjry/89c1af83fcb8de564462eb5e0e727012/era-arrows-white__1_.png",
   "rewards": [
@@ -3165,6 +3082,106 @@
   ],
   "assetUrls": [
     "https://github.com/alchemix-finance/v2-foundry"
+  ]
+},
+{
+  "protocol": "xion",
+  "logo": "https://images.ctfassets.net/t3wqy70tc3bv/4aUlGJ2SEqMBqpi8WrDHVL/42d7fe2a8837fb5ffbc5db51f4c43365/Huw5cTrb_400x400.png",
+  "rewards": [
+    {
+      "severity": "critical",
+      "maxReward": 250000,
+      "minReward": 50000,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "blockchain_dlt",
+      "level": null
+    },
+    {
+      "severity": "high",
+      "maxReward": null,
+      "minReward": null,
+      "fixedReward": 20000,
+      "payout": null,
+      "assetType": "blockchain_dlt",
+      "level": null
+    },
+    {
+      "severity": "medium",
+      "maxReward": null,
+      "minReward": null,
+      "fixedReward": 5000,
+      "payout": null,
+      "assetType": "blockchain_dlt",
+      "level": null
+    },
+    {
+      "severity": "critical",
+      "maxReward": 250000,
+      "minReward": 50000,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "smart_contract",
+      "level": null
+    },
+    {
+      "severity": "high",
+      "maxReward": null,
+      "minReward": null,
+      "fixedReward": 20000,
+      "payout": null,
+      "assetType": "smart_contract",
+      "level": null
+    },
+    {
+      "severity": "medium",
+      "maxReward": null,
+      "minReward": null,
+      "fixedReward": 5000,
+      "payout": null,
+      "assetType": "smart_contract",
+      "level": null
+    },
+    {
+      "severity": "critical",
+      "maxReward": 20000,
+      "minReward": 5000,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "websites_and_applications",
+      "level": null
+    },
+    {
+      "severity": "high",
+      "maxReward": null,
+      "minReward": null,
+      "fixedReward": 2500,
+      "payout": null,
+      "assetType": "websites_and_applications",
+      "level": null
+    },
+    {
+      "severity": "medium",
+      "maxReward": null,
+      "minReward": null,
+      "fixedReward": 1500,
+      "payout": null,
+      "assetType": "websites_and_applications",
+      "level": null
+    },
+    {
+      "severity": "low",
+      "maxReward": null,
+      "minReward": null,
+      "fixedReward": 1000,
+      "payout": null,
+      "assetType": "websites_and_applications",
+      "level": null
+    }
+  ],
+  "assetUrls": [
+    "https://github.com/burnt-labs/contracts",
+    "https://github.com/burnt-labs/xion"
   ]
 },
 {
