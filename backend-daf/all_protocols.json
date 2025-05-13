@@ -3856,18 +3856,18 @@
     },
     {
       "severity": "high",
-      "maxReward": null,
+      "maxReward": 25000,
       "minReward": null,
-      "fixedReward": 25000,
+      "fixedReward": null,
       "payout": null,
       "assetType": "blockchain_dlt",
       "level": null
     },
     {
       "severity": "medium",
-      "maxReward": null,
+      "maxReward": 5000,
       "minReward": null,
-      "fixedReward": 5000,
+      "fixedReward": null,
       "payout": null,
       "assetType": "blockchain_dlt",
       "level": null
@@ -3892,18 +3892,18 @@
     },
     {
       "severity": "high",
-      "maxReward": null,
+      "maxReward": 25000,
       "minReward": null,
-      "fixedReward": 25000,
+      "fixedReward": null,
       "payout": null,
       "assetType": "smart_contract",
       "level": null
     },
     {
       "severity": "medium",
-      "maxReward": null,
+      "maxReward": 5000,
       "minReward": null,
-      "fixedReward": 5000,
+      "fixedReward": null,
       "payout": null,
       "assetType": "smart_contract",
       "level": null
@@ -6047,6 +6047,51 @@
     "https://github.com/HorizenOfficial/Sidechains-SDK",
     "https://github.com/HorizenOfficial/Sparkz",
     "https://github.com/HorizenOfficial/zen"
+  ]
+},
+{
+  "protocol": "kinesis-bridge-on-kadena",
+  "logo": "https://images.ctfassets.net/t3wqy70tc3bv/3JbCmvAmy6mloa0cxuVBgw/f7f0dd0875dd7a275bf9393d73d3f6d1/Screenshot_2025-01-23_at_10.19.49.png",
+  "rewards": [
+    {
+      "severity": "critical",
+      "maxReward": 50000,
+      "minReward": 25000,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "smart_contract",
+      "level": null
+    },
+    {
+      "severity": "high",
+      "maxReward": 25000,
+      "minReward": 10000,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "smart_contract",
+      "level": null
+    },
+    {
+      "severity": "medium",
+      "maxReward": null,
+      "minReward": null,
+      "fixedReward": 5000,
+      "payout": null,
+      "assetType": "smart_contract",
+      "level": null
+    },
+    {
+      "severity": "low",
+      "maxReward": null,
+      "minReward": null,
+      "fixedReward": 1000,
+      "payout": null,
+      "assetType": "smart_contract",
+      "level": null
+    }
+  ],
+  "assetUrls": [
+    "https://github.com/Kadena-ISS/smart-contracts"
   ]
 },
 {
