@@ -899,79 +899,6 @@
   ]
 },
 {
-  "protocol": "lidoonpolygon",
-  "logo": "https://images.ctfassets.net/t3wqy70tc3bv/51D5leTvhTAzt8B5goyJwq/d530d33691ce32e0d4edbedcd3884dfa/Lido_for_Polygon.png",
-  "rewards": [
-    {
-      "severity": "high",
-      "maxReward": 400000,
-      "minReward": 20000,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "medium",
-      "maxReward": 100000,
-      "minReward": 5000,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "critical",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 40000,
-      "payout": null,
-      "assetType": "websites_and_applications",
-      "level": null
-    },
-    {
-      "severity": "high",
-      "maxReward": 40000,
-      "minReward": 7500,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "websites_and_applications",
-      "level": null
-    },
-    {
-      "severity": "medium",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 3250,
-      "payout": null,
-      "assetType": "websites_and_applications",
-      "level": null
-    },
-    {
-      "severity": "low",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 1000,
-      "payout": null,
-      "assetType": "websites_and_applications",
-      "level": null
-    },
-    {
-      "severity": "critical",
-      "maxReward": 2000000,
-      "minReward": 100000,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    }
-  ],
-  "assetUrls": [
-    "https://github.com/lidofinance/polygon-contracts",
-    "https://github.com/Shard-Labs/PoLido"
-  ]
-},
-{
   "protocol": "arbitrum",
   "logo": "https://images.ctfassets.net/t3wqy70tc3bv/4R1H4ktLiQcp601gnixkJa/20dc4d9cf5229ae712f1413d9afced4f/Arbitrum.jpeg",
   "rewards": [
@@ -4286,6 +4213,7 @@
     "https://github.com/filecoin-project/go-cbor-util",
     "https://github.com/filecoin-project/go-crypto",
     "https://github.com/filecoin-project/go-data-transfer",
+    "https://github.com/filecoin-project/go-f3",
     "https://github.com/filecoin-project/go-fil-commcid",
     "https://github.com/filecoin-project/go-padreader",
     "https://github.com/filecoin-project/go-sectorbuilder",
@@ -5669,54 +5597,6 @@
   ],
   "assetUrls": [
     "https://github.com/backstop-protocol/dev"
-  ]
-},
-{
-  "protocol": "alpacafinance",
-  "logo": "https://images.ctfassets.net/t3wqy70tc3bv/7A752GlV5SXytw8vQ3311P/adc8fc324f89144ab15badd1c0b3fe02/Alpaca_Finance.jpeg",
-  "rewards": [
-    {
-      "severity": "critical",
-      "maxReward": 100000,
-      "minReward": null,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "high",
-      "maxReward": 15000,
-      "minReward": null,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "medium",
-      "maxReward": 5000,
-      "minReward": null,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "low",
-      "maxReward": 1000,
-      "minReward": null,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    }
-  ],
-  "assetUrls": [
-    "https://github.com/alpaca-finance/alpaca-v2-money-market",
-    "https://github.com/alpaca-finance/alperp-contract",
-    "https://github.com/alpaca-finance/alpies-contract",
-    "https://github.com/alpaca-finance/bsc-alpaca-contract"
   ]
 },
 {
