@@ -4311,76 +4311,76 @@
   "logo": "https://images.ctfassets.net/t3wqy70tc3bv/2pTpT9c23a8EsYWlTP0HHD/aac2962a431a6d01b66dff78ccbf2e46/Inference_Labs.png",
   "rewards": [
     {
-      "severity": "critical",
-      "maxReward": 100000,
-      "minReward": 50000,
+      "severity": null,
+      "maxReward": null,
+      "minReward": null,
       "fixedReward": null,
-      "payout": null,
+      "payout": "USD $50,000 - USD $100,000",
       "assetType": "smart_contract",
-      "level": null
+      "level": "critical"
     },
     {
-      "severity": "high",
-      "maxReward": 50000,
-      "minReward": 25000,
+      "severity": null,
+      "maxReward": null,
+      "minReward": null,
       "fixedReward": null,
-      "payout": null,
+      "payout": "USD $25,000 - USD $50,000",
       "assetType": "smart_contract",
-      "level": null
+      "level": "high"
     },
     {
-      "severity": "medium",
+      "severity": null,
       "maxReward": null,
       "minReward": null,
-      "fixedReward": 10000,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "low",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 1000,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "critical",
-      "maxReward": 15000,
-      "minReward": 11000,
       "fixedReward": null,
-      "payout": null,
-      "assetType": "websites_and_applications",
-      "level": null
+      "payout": "USD $10,000",
+      "assetType": "smart_contract",
+      "level": "medium"
     },
     {
-      "severity": "high",
+      "severity": null,
       "maxReward": null,
       "minReward": null,
-      "fixedReward": 10000,
-      "payout": null,
-      "assetType": "websites_and_applications",
-      "level": null
+      "fixedReward": null,
+      "payout": "USD $1,000",
+      "assetType": "smart_contract",
+      "level": "low"
     },
     {
-      "severity": "medium",
+      "severity": null,
       "maxReward": null,
       "minReward": null,
-      "fixedReward": 3000,
-      "payout": null,
+      "fixedReward": null,
+      "payout": "USD $11,000 - USD $15,000",
       "assetType": "websites_and_applications",
-      "level": null
+      "level": "critical"
     },
     {
-      "severity": "low",
+      "severity": null,
       "maxReward": null,
       "minReward": null,
-      "fixedReward": 1000,
-      "payout": null,
+      "fixedReward": null,
+      "payout": "USD $10,000",
       "assetType": "websites_and_applications",
-      "level": null
+      "level": "high"
+    },
+    {
+      "severity": null,
+      "maxReward": null,
+      "minReward": null,
+      "fixedReward": null,
+      "payout": "USD $3,000",
+      "assetType": "websites_and_applications",
+      "level": "medium"
+    },
+    {
+      "severity": null,
+      "maxReward": null,
+      "minReward": null,
+      "fixedReward": null,
+      "payout": "USD $1,000",
+      "assetType": "websites_and_applications",
+      "level": "low"
     }
   ],
   "assetUrls": [
@@ -5449,22 +5449,22 @@
   "logo": "https://images.ctfassets.net/t3wqy70tc3bv/5tF3UdYVrbkjGeIg96gbd/d8bdfa09ca4945ae30cb4d6e90b029d7/ALEX_logo.jpeg",
   "rewards": [
     {
-      "severity": "high",
-      "maxReward": 20000,
+      "severity": null,
+      "maxReward": null,
       "minReward": null,
       "fixedReward": null,
-      "payout": null,
+      "payout": "Up to USD $100,000",
       "assetType": "smart_contract",
-      "level": null
+      "level": "critical"
     },
     {
-      "severity": "critical",
-      "maxReward": 100000,
+      "severity": null,
+      "maxReward": null,
       "minReward": null,
       "fixedReward": null,
-      "payout": null,
+      "payout": "Up to USD $20,000",
       "assetType": "smart_contract",
-      "level": null
+      "level": "high"
     }
   ],
   "assetUrls": [
@@ -7054,40 +7054,40 @@
   "logo": "https://images.ctfassets.net/t3wqy70tc3bv/4tl7aEnEwJyvmUxPKqR2KH/2ad9232b3e2e462c88aa27262ce93deb/OpenZeppelin_Logo.jpeg",
   "rewards": [
     {
-      "severity": "critical",
-      "maxReward": 25000,
-      "minReward": 5000,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "high",
-      "maxReward": 5000,
-      "minReward": 2500,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "medium",
+      "severity": null,
       "maxReward": null,
       "minReward": null,
-      "fixedReward": 2500,
-      "payout": null,
+      "fixedReward": null,
+      "payout": "USD $5,001 to USD $25,000",
       "assetType": "smart_contract",
-      "level": null
+      "level": "critical"
     },
     {
-      "severity": "low",
+      "severity": null,
       "maxReward": null,
       "minReward": null,
-      "fixedReward": 1000,
-      "payout": null,
+      "fixedReward": null,
+      "payout": "USD $2,501 to USD $5,000",
       "assetType": "smart_contract",
-      "level": null
+      "level": "high"
+    },
+    {
+      "severity": null,
+      "maxReward": null,
+      "minReward": null,
+      "fixedReward": null,
+      "payout": "USD $2,500",
+      "assetType": "smart_contract",
+      "level": "medium"
+    },
+    {
+      "severity": null,
+      "maxReward": null,
+      "minReward": null,
+      "fixedReward": null,
+      "payout": "USD $1,000",
+      "assetType": "smart_contract",
+      "level": "low"
     }
   ],
   "assetUrls": [
