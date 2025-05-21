@@ -7376,6 +7376,87 @@
   ]
 },
 {
+  "protocol": "foil",
+  "logo": "https://images.ctfassets.net/t3wqy70tc3bv/oRE6rxG0ViPx7XVeUQqpy/45ea4203860d0c2643b4cdf7221b4c58/FOIL.png",
+  "rewards": [
+    {
+      "severity": "critical",
+      "maxReward": 10000,
+      "minReward": 5100,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "smart_contract",
+      "level": null
+    },
+    {
+      "severity": "high",
+      "maxReward": 5000,
+      "minReward": 2600,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "smart_contract",
+      "level": null
+    },
+    {
+      "severity": "medium",
+      "maxReward": 2500,
+      "minReward": null,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "smart_contract",
+      "level": null
+    },
+    {
+      "severity": "low",
+      "maxReward": null,
+      "minReward": null,
+      "fixedReward": 1000,
+      "payout": null,
+      "assetType": "smart_contract",
+      "level": null
+    },
+    {
+      "severity": "critical",
+      "maxReward": 10000,
+      "minReward": 5100,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "websites_and_applications",
+      "level": null
+    },
+    {
+      "severity": "high",
+      "maxReward": 5000,
+      "minReward": 2600,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "websites_and_applications",
+      "level": null
+    },
+    {
+      "severity": "medium",
+      "maxReward": 2500,
+      "minReward": null,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "websites_and_applications",
+      "level": null
+    },
+    {
+      "severity": "low",
+      "maxReward": null,
+      "minReward": null,
+      "fixedReward": 1000,
+      "payout": null,
+      "assetType": "websites_and_applications",
+      "level": null
+    }
+  ],
+  "assetUrls": [
+    "https://github.com/foilxyz/foil"
+  ]
+},
+{
   "protocol": "integriteenetwork",
   "logo": "https://images.ctfassets.net/t3wqy70tc3bv/7wdCOkQcjt9zW6srbOQzIS/1445121a3c95adf2c484adb7f7edab76/Integritee.png",
   "rewards": [
