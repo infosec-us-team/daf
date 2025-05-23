@@ -814,6 +814,15 @@
       "level": null
     },
     {
+      "severity": "low",
+      "maxReward": 5000,
+      "minReward": 1000,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "blockchain_dlt",
+      "level": null
+    },
+    {
       "severity": "critical",
       "maxReward": 100000,
       "minReward": 10000,
@@ -4583,51 +4592,6 @@
   ],
   "assetUrls": [
     "https://github.com/Segment-Finance/protocol"
-  ]
-},
-{
-  "protocol": "econia",
-  "logo": "https://images.ctfassets.net/t3wqy70tc3bv/36AfO1anvucweo4MCCseL7/8529432f760093f91cba7d78baed39ee/Black-Econia-Logo-Mark_copy.png",
-  "rewards": [
-    {
-      "severity": "critical",
-      "maxReward": 100000,
-      "minReward": 25000,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "high",
-      "maxReward": 25000,
-      "minReward": 10000,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "medium",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 10000,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "low",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 5000,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    }
-  ],
-  "assetUrls": [
-    "https://github.com/econia-labs/econia"
   ]
 },
 {
