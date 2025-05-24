@@ -4900,52 +4900,6 @@
   ]
 },
 {
-  "protocol": "tinymanv2",
-  "logo": "https://images.ctfassets.net/t3wqy70tc3bv/qMW04QKijrELS1608QEq1/8ba39eaead6b38dd9c445c7a72a627c4/Tinyman_v2_Logo_Small.png",
-  "rewards": [
-    {
-      "severity": "critical",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 100000,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "high",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 50000,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "medium",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 5000,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "low",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 1000,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    }
-  ],
-  "assetUrls": [
-    "https://github.com/tinymanorg/tinyman-amm-contracts-v2",
-    "https://github.com/tinymanorg/tinyman-consensus-staking"
-  ]
-},
-{
   "protocol": "icon",
   "logo": "https://images.ctfassets.net/t3wqy70tc3bv/Ig6atE81zuZbq3VTA7GAx/31395c33216e2050beef7269a608cfb4/ICON_logo.jpeg",
   "rewards": [
@@ -5150,51 +5104,6 @@
   ],
   "assetUrls": [
     "https://github.com/Revest-Finance/RevestAPI"
-  ]
-},
-{
-  "protocol": "pact",
-  "logo": "https://images.ctfassets.net/t3wqy70tc3bv/2JgkHUhqobp6GttXTa487O/b73e48617f0c866e6265b49eda24ca88/Pact_Logo.jpeg",
-  "rewards": [
-    {
-      "severity": "high",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 25000,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "medium",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 5000,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "critical",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 5000,
-      "payout": null,
-      "assetType": "websites_and_applications",
-      "level": null
-    },
-    {
-      "severity": "critical",
-      "maxReward": 100000,
-      "minReward": null,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    }
-  ],
-  "assetUrls": [
-    "https://github.com/pactfi/algorand-testbed"
   ]
 },
 {
