@@ -6715,6 +6715,51 @@
   ]
 },
 {
+  "protocol": "openzeppelin-stellar",
+  "logo": "https://images.ctfassets.net/t3wqy70tc3bv/5dlUG1E6sheSJXTj8T3pbh/810c198bb74efdb222d701da00d91957/oz.png",
+  "rewards": [
+    {
+      "severity": "critical",
+      "maxReward": 25000,
+      "minReward": 5000,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "smart_contract",
+      "level": null
+    },
+    {
+      "severity": "high",
+      "maxReward": 5000,
+      "minReward": 2500,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "smart_contract",
+      "level": null
+    },
+    {
+      "severity": "medium",
+      "maxReward": null,
+      "minReward": null,
+      "fixedReward": 2500,
+      "payout": null,
+      "assetType": "smart_contract",
+      "level": null
+    },
+    {
+      "severity": "low",
+      "maxReward": null,
+      "minReward": null,
+      "fixedReward": 1000,
+      "payout": null,
+      "assetType": "smart_contract",
+      "level": null
+    }
+  ],
+  "assetUrls": [
+    "https://github.com/OpenZeppelin/stellar-contracts"
+  ]
+},
+{
   "protocol": "hydro",
   "logo": "https://images.ctfassets.net/t3wqy70tc3bv/4bv3NFZNG33D4ROLBTaUtN/fb4e9c53303ac076fbdb8e5498e3f68e/Screenshot_2025-02-05_at_13.17.45.png",
   "rewards": [
