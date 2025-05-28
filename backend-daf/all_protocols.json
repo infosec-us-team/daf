@@ -2887,51 +2887,6 @@
   ]
 },
 {
-  "protocol": "enzymefinance",
-  "logo": "https://images.ctfassets.net/t3wqy70tc3bv/4a7y72EOvOMZWlUx3h2ZNi/7877774da8145f9d7cbd85f902d7198a/Enzymefinance-logo.jpg",
-  "rewards": [
-    {
-      "severity": "critical",
-      "maxReward": 400000,
-      "minReward": null,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "high",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 80000,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "medium",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 20000,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "low",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 2000,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    }
-  ],
-  "assetUrls": [
-    "https://github.com/enzymefinance/protocol"
-  ]
-},
-{
   "protocol": "defisaver",
   "logo": "https://images.ctfassets.net/t3wqy70tc3bv/1S8ggfDmWMZTN2T6wcMNaS/b56ce9699295511536c8e970e550ee9c/Defisaver-logo.jpg",
   "rewards": [
@@ -4169,6 +4124,42 @@
   ],
   "assetUrls": [
     "https://github.com/tranchess/contract-core"
+  ]
+},
+{
+  "protocol": "enzymefinance",
+  "logo": "https://images.ctfassets.net/t3wqy70tc3bv/4a7y72EOvOMZWlUx3h2ZNi/7877774da8145f9d7cbd85f902d7198a/Enzymefinance-logo.jpg",
+  "rewards": [
+    {
+      "severity": "critical",
+      "maxReward": 200000,
+      "minReward": 20000,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "smart_contract",
+      "level": null
+    },
+    {
+      "severity": "high",
+      "maxReward": 20000,
+      "minReward": 5000,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "smart_contract",
+      "level": null
+    },
+    {
+      "severity": "medium",
+      "maxReward": 5000,
+      "minReward": 1000,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "smart_contract",
+      "level": null
+    }
+  ],
+  "assetUrls": [
+    "https://github.com/enzymefinance/protocol"
   ]
 },
 {
@@ -7291,6 +7282,101 @@
   ],
   "assetUrls": [
     "https://github.com/charmfinance/alpha-vaults-v2-contracts"
+  ]
+},
+{
+  "protocol": "intmax",
+  "logo": "https://images.ctfassets.net/t3wqy70tc3bv/2BTkztIuOsBcIC3jo0BOUo/b42c417716e7524287ae098a4f70cbb1/ce7Y1CtV_400x400.png",
+  "rewards": [
+    {
+      "severity": "critical",
+      "maxReward": 10000,
+      "minReward": 5000,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "blockchain_dlt",
+      "level": null
+    },
+    {
+      "severity": "high",
+      "maxReward": null,
+      "minReward": null,
+      "fixedReward": 1000,
+      "payout": null,
+      "assetType": "blockchain_dlt",
+      "level": null
+    },
+    {
+      "severity": "critical",
+      "maxReward": 10000,
+      "minReward": 5000,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "smart_contract",
+      "level": null
+    },
+    {
+      "severity": "high",
+      "maxReward": null,
+      "minReward": null,
+      "fixedReward": 2000,
+      "payout": null,
+      "assetType": "smart_contract",
+      "level": null
+    },
+    {
+      "severity": "medium",
+      "maxReward": null,
+      "minReward": null,
+      "fixedReward": 1500,
+      "payout": null,
+      "assetType": "smart_contract",
+      "level": null
+    },
+    {
+      "severity": "low",
+      "maxReward": null,
+      "minReward": null,
+      "fixedReward": 1000,
+      "payout": null,
+      "assetType": "smart_contract",
+      "level": null
+    },
+    {
+      "severity": "critical",
+      "maxReward": null,
+      "minReward": null,
+      "fixedReward": 10000,
+      "payout": null,
+      "assetType": "websites_and_applications",
+      "level": null
+    },
+    {
+      "severity": "high",
+      "maxReward": null,
+      "minReward": null,
+      "fixedReward": 3000,
+      "payout": null,
+      "assetType": "websites_and_applications",
+      "level": null
+    },
+    {
+      "severity": "medium",
+      "maxReward": null,
+      "minReward": null,
+      "fixedReward": 1000,
+      "payout": null,
+      "assetType": "websites_and_applications",
+      "level": null
+    }
+  ],
+  "assetUrls": [
+    "https://github.com/InternetMaximalism/intmax2-claim-aggregator",
+    "https://github.com/InternetMaximalism/intmax2-contract",
+    "https://github.com/InternetMaximalism/intmax2-functions",
+    "https://github.com/InternetMaximalism/intmax2-reward-contract",
+    "https://github.com/InternetMaximalism/intmax2-withdrawal-aggregator",
+    "https://github.com/InternetMaximalism/intmax2-zkp"
   ]
 },
 {
