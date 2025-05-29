@@ -554,7 +554,6 @@
     "https://github.com/graphprotocol/graph-node",
     "https://github.com/graphprotocol/indexer",
     "https://github.com/graphprotocol/indexer-rs",
-    "https://github.com/semiotic-ai/timeline-aggregation-protocol",
     "https://github.com/streamingfast/firehose-core",
     "https://github.com/streamingfast/firehose-ethereum",
     "https://github.com/streamingfast/substreams"
@@ -4310,42 +4309,6 @@
   "protocol": "omron",
   "logo": "https://images.ctfassets.net/t3wqy70tc3bv/2pTpT9c23a8EsYWlTP0HHD/aac2962a431a6d01b66dff78ccbf2e46/Inference_Labs.png",
   "rewards": [
-    {
-      "severity": "critical",
-      "maxReward": 100000,
-      "minReward": 50000,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "high",
-      "maxReward": 50000,
-      "minReward": 25000,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "medium",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 10000,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "low",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 1000,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
     {
       "severity": "critical",
       "maxReward": 15000,
