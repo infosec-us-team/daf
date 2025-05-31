@@ -7304,42 +7304,18 @@
       "payout": null,
       "assetType": "smart_contract",
       "level": null
-    },
-    {
-      "severity": "critical",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 10000,
-      "payout": null,
-      "assetType": "websites_and_applications",
-      "level": null
-    },
-    {
-      "severity": "high",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 3000,
-      "payout": null,
-      "assetType": "websites_and_applications",
-      "level": null
-    },
-    {
-      "severity": "medium",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 1000,
-      "payout": null,
-      "assetType": "websites_and_applications",
-      "level": null
     }
   ],
   "assetUrls": [
+    "https://github.com/InternetMaximalism/intmax2",
     "https://github.com/InternetMaximalism/intmax2-claim-aggregator",
     "https://github.com/InternetMaximalism/intmax2-contract",
     "https://github.com/InternetMaximalism/intmax2-functions",
     "https://github.com/InternetMaximalism/intmax2-reward-contract",
     "https://github.com/InternetMaximalism/intmax2-withdrawal-aggregator",
-    "https://github.com/InternetMaximalism/intmax2-zkp"
+    "https://github.com/InternetMaximalism/intmax2-zkp",
+    "https://github.com/InternetMaximalism/plonky2_bn254",
+    "https://github.com/InternetMaximalism/plonky2_keccak"
   ]
 },
 {
