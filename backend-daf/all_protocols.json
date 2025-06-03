@@ -548,14 +548,12 @@
   ],
   "assetUrls": [
     "https://github.com/edgeandnode/gateway",
-    "https://github.com/graphprotocol/agora",
     "https://github.com/graphprotocol/AllocationOpt.jl",
     "https://github.com/graphprotocol/block-oracle",
     "https://github.com/graphprotocol/graph-node",
     "https://github.com/graphprotocol/indexer",
     "https://github.com/graphprotocol/indexer-rs",
     "https://github.com/streamingfast/firehose-core",
-    "https://github.com/streamingfast/firehose-ethereum",
     "https://github.com/streamingfast/substreams"
   ]
 },
@@ -969,8 +967,8 @@
     },
     {
       "severity": "high",
-      "maxReward": 400000,
-      "minReward": 20000,
+      "maxReward": 250000,
+      "minReward": 10000,
       "fixedReward": null,
       "payout": null,
       "assetType": "smart_contract",
@@ -978,8 +976,8 @@
     },
     {
       "severity": "medium",
-      "maxReward": 100000,
-      "minReward": 5000,
+      "maxReward": 50000,
+      "minReward": 1000,
       "fixedReward": null,
       "payout": null,
       "assetType": "smart_contract",
@@ -989,24 +987,24 @@
       "severity": "low",
       "maxReward": null,
       "minReward": null,
-      "fixedReward": 2000,
+      "fixedReward": 1000,
       "payout": null,
       "assetType": "smart_contract",
       "level": null
     },
     {
       "severity": "critical",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 40000,
+      "maxReward": 100000,
+      "minReward": 50000,
+      "fixedReward": null,
       "payout": null,
       "assetType": "websites_and_applications",
       "level": null
     },
     {
       "severity": "high",
-      "maxReward": 40000,
-      "minReward": 7500,
+      "maxReward": 50000,
+      "minReward": 5000,
       "fixedReward": null,
       "payout": null,
       "assetType": "websites_and_applications",
@@ -1014,9 +1012,9 @@
     },
     {
       "severity": "medium",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 3250,
+      "maxReward": 5000,
+      "minReward": 1000,
+      "fixedReward": null,
       "payout": null,
       "assetType": "websites_and_applications",
       "level": null
@@ -1032,11 +1030,7 @@
     }
   ],
   "assetUrls": [
-    "https://github.com/lidofinance/aave-protocol-v2",
-    "https://github.com/lidofinance/anchor-collateral-steth",
-    "https://github.com/lidofinance/easy-track",
-    "https://github.com/lidofinance/lido-council-daemon",
-    "https://github.com/lidofinance/lido-dao"
+    "https://github.com/lidofinance/core"
   ]
 },
 {
@@ -1391,66 +1385,66 @@
   "logo": "https://images.ctfassets.net/t3wqy70tc3bv/2Iz1gzlaRYZXVxirqyYifA/55ed60e3924de4b64003b286227bd47b/Screenshot_2024-11-15_at_1.42.12___AM.png",
   "rewards": [
     {
-      "severity": "high",
-      "maxReward": null,
+      "severity": "critical",
+      "maxReward": 1000000,
       "minReward": null,
-      "fixedReward": 22140,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "smart_contract",
+      "level": null
+    },
+    {
+      "severity": "high",
+      "maxReward": 15000,
+      "minReward": null,
+      "fixedReward": null,
       "payout": null,
       "assetType": "smart_contract",
       "level": null
     },
     {
       "severity": "medium",
-      "maxReward": null,
+      "maxReward": 4000,
       "minReward": null,
-      "fixedReward": 8800,
+      "fixedReward": null,
       "payout": null,
       "assetType": "smart_contract",
       "level": null
     },
     {
       "severity": "low",
-      "maxReward": null,
+      "maxReward": 1500,
       "minReward": null,
-      "fixedReward": 2200,
+      "fixedReward": null,
       "payout": null,
       "assetType": "smart_contract",
       "level": null
     },
     {
       "severity": "critical",
-      "maxReward": null,
+      "maxReward": 15000,
       "minReward": null,
-      "fixedReward": 22140,
+      "fixedReward": null,
       "payout": null,
       "assetType": "websites_and_applications",
       "level": null
     },
     {
       "severity": "high",
-      "maxReward": null,
+      "maxReward": 4000,
       "minReward": null,
-      "fixedReward": 8800,
+      "fixedReward": null,
       "payout": null,
       "assetType": "websites_and_applications",
       "level": null
     },
     {
       "severity": "medium",
-      "maxReward": null,
+      "maxReward": 1500,
       "minReward": null,
-      "fixedReward": 2200,
-      "payout": null,
-      "assetType": "websites_and_applications",
-      "level": null
-    },
-    {
-      "severity": "critical",
-      "maxReward": 1000000,
-      "minReward": 50000,
       "fixedReward": null,
       "payout": null,
-      "assetType": "smart_contract",
+      "assetType": "websites_and_applications",
       "level": null
     }
   ],
@@ -1830,9 +1824,9 @@
     },
     {
       "severity": "high",
-      "maxReward": null,
+      "maxReward": 15000,
       "minReward": null,
-      "fixedReward": 22140,
+      "fixedReward": null,
       "payout": null,
       "assetType": "blockchain_dlt",
       "level": null
@@ -1848,7 +1842,7 @@
     },
     {
       "severity": "high",
-      "maxReward": 22140,
+      "maxReward": 15000,
       "minReward": null,
       "fixedReward": null,
       "payout": null,
@@ -1857,7 +1851,7 @@
     },
     {
       "severity": "medium",
-      "maxReward": 8800,
+      "maxReward": 4000,
       "minReward": null,
       "fixedReward": null,
       "payout": null,
@@ -1866,7 +1860,7 @@
     },
     {
       "severity": "low",
-      "maxReward": 2200,
+      "maxReward": 1500,
       "minReward": null,
       "fixedReward": null,
       "payout": null,
@@ -1875,27 +1869,27 @@
     },
     {
       "severity": "critical",
-      "maxReward": null,
+      "maxReward": 15000,
       "minReward": null,
-      "fixedReward": 22140,
+      "fixedReward": null,
       "payout": null,
       "assetType": "websites_and_applications",
       "level": null
     },
     {
       "severity": "high",
-      "maxReward": null,
+      "maxReward": 4000,
       "minReward": null,
-      "fixedReward": 8800,
+      "fixedReward": null,
       "payout": null,
       "assetType": "websites_and_applications",
       "level": null
     },
     {
       "severity": "medium",
-      "maxReward": null,
+      "maxReward": 1500,
       "minReward": null,
-      "fixedReward": 2200,
+      "fixedReward": null,
       "payout": null,
       "assetType": "websites_and_applications",
       "level": null
@@ -7264,7 +7258,7 @@
       "severity": "high",
       "maxReward": null,
       "minReward": null,
-      "fixedReward": 1000,
+      "fixedReward": 2000,
       "payout": null,
       "assetType": "blockchain_dlt",
       "level": null
