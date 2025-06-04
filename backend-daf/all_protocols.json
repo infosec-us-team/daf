@@ -162,14 +162,18 @@
   "assetUrls": [
     "https://github.com/dapphub/ds-weth",
     "https://github.com/makerdao/arbitrum-dai-bridge",
+    "https://github.com/makerdao/arbitrum-token-bridge",
     "https://github.com/makerdao/clipper-mom",
     "https://github.com/makerdao/dsr-manager",
     "https://github.com/makerdao/dss",
+    "https://github.com/makerdao/dss-allocator",
     "https://github.com/makerdao/dss-auto-line",
+    "https://github.com/makerdao/dss-blow2",
     "https://github.com/makerdao/dss-cdp-manager",
     "https://github.com/makerdao/dss-chain-log",
     "https://github.com/makerdao/dss-cron",
     "https://github.com/makerdao/dss-direct-deposit",
+    "https://github.com/makerdao/dss-emergency-spells",
     "https://github.com/makerdao/dss-exec-lib",
     "https://github.com/makerdao/dss-flappers",
     "https://github.com/makerdao/dss-flash",
@@ -187,10 +191,13 @@
     "https://github.com/makerdao/mip21-toolkit",
     "https://github.com/makerdao/mkr-authority",
     "https://github.com/makerdao/optimism-dai-bridge",
+    "https://github.com/makerdao/op-token-bridge",
     "https://github.com/makerdao/osm",
+    "https://github.com/makerdao/protego",
     "https://github.com/makerdao/rwa-toolkit",
     "https://github.com/makerdao/sdai",
     "https://github.com/makerdao/sky",
+    "https://github.com/makerdao/sp-beam",
     "https://github.com/makerdao/starknet-dai-bridge",
     "https://github.com/makerdao/univ2-lp-oracle",
     "https://github.com/makerdao/univ2-pool-migrator",
@@ -794,8 +801,8 @@
     },
     {
       "severity": "high",
-      "maxReward": 200000,
-      "minReward": 20000,
+      "maxReward": 40000,
+      "minReward": 10000,
       "fixedReward": null,
       "payout": null,
       "assetType": "blockchain_dlt",
@@ -803,7 +810,7 @@
     },
     {
       "severity": "medium",
-      "maxReward": 20000,
+      "maxReward": 10000,
       "minReward": 5000,
       "fixedReward": null,
       "payout": null,
@@ -812,9 +819,9 @@
     },
     {
       "severity": "low",
-      "maxReward": 5000,
-      "minReward": 1000,
-      "fixedReward": null,
+      "maxReward": null,
+      "minReward": null,
+      "fixedReward": 1000,
       "payout": null,
       "assetType": "blockchain_dlt",
       "level": null
@@ -830,9 +837,9 @@
     },
     {
       "severity": "high",
-      "maxReward": null,
+      "maxReward": 7500,
       "minReward": null,
-      "fixedReward": 10000,
+      "fixedReward": null,
       "payout": null,
       "assetType": "websites_and_applications",
       "level": null
@@ -841,7 +848,7 @@
       "severity": "medium",
       "maxReward": null,
       "minReward": null,
-      "fixedReward": 5000,
+      "fixedReward": 3000,
       "payout": null,
       "assetType": "websites_and_applications",
       "level": null
@@ -4227,51 +4234,7 @@
     "https://github.com/whyrusleeping/cbor-gen"
   ]
 },
-{
-  "protocol": "vechain",
-  "logo": "https://images.ctfassets.net/t3wqy70tc3bv/4wnn7dBmdHJEKcf5L0pxMA/57ff4f0e7b864db7519413074267b04e/symbol_02__1_.png",
-  "rewards": [
-    {
-      "severity": "critical",
-      "maxReward": 100000,
-      "minReward": 35000,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "blockchain_dlt",
-      "level": null
-    },
-    {
-      "severity": "high",
-      "maxReward": 35000,
-      "minReward": 10000,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "blockchain_dlt",
-      "level": null
-    },
-    {
-      "severity": "medium",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 5000,
-      "payout": null,
-      "assetType": "blockchain_dlt",
-      "level": null
-    },
-    {
-      "severity": "low",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 1000,
-      "payout": null,
-      "assetType": "blockchain_dlt",
-      "level": null
-    }
-  ],
-  "assetUrls": [
-    "https://github.com/vechain/thor"
-  ]
-},
+,
 {
   "protocol": "zerolend",
   "logo": "https://images.ctfassets.net/t3wqy70tc3bv/3krwpy8yy3IaOV7zKhDMMt/a6c889f6174da2c0762e542ae8899475/zerolend.png",
