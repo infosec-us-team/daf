@@ -559,7 +559,6 @@
     "https://github.com/graphprotocol/block-oracle",
     "https://github.com/graphprotocol/graph-node",
     "https://github.com/graphprotocol/indexer",
-    "https://github.com/graphprotocol/indexer-rs",
     "https://github.com/streamingfast/firehose-core",
     "https://github.com/streamingfast/substreams"
   ]
@@ -4234,7 +4233,51 @@
     "https://github.com/whyrusleeping/cbor-gen"
   ]
 },
-,
+{
+  "protocol": "vechain",
+  "logo": "https://images.ctfassets.net/t3wqy70tc3bv/4wnn7dBmdHJEKcf5L0pxMA/57ff4f0e7b864db7519413074267b04e/symbol_02__1_.png",
+  "rewards": [
+    {
+      "severity": "critical",
+      "maxReward": 100000,
+      "minReward": 35000,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "blockchain_dlt",
+      "level": null
+    },
+    {
+      "severity": "high",
+      "maxReward": 35000,
+      "minReward": 10000,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "blockchain_dlt",
+      "level": null
+    },
+    {
+      "severity": "medium",
+      "maxReward": null,
+      "minReward": null,
+      "fixedReward": 5000,
+      "payout": null,
+      "assetType": "blockchain_dlt",
+      "level": null
+    },
+    {
+      "severity": "low",
+      "maxReward": null,
+      "minReward": null,
+      "fixedReward": 1000,
+      "payout": null,
+      "assetType": "blockchain_dlt",
+      "level": null
+    }
+  ],
+  "assetUrls": [
+    "https://github.com/vechain/thor"
+  ]
+},
 {
   "protocol": "zerolend",
   "logo": "https://images.ctfassets.net/t3wqy70tc3bv/3krwpy8yy3IaOV7zKhDMMt/a6c889f6174da2c0762e542ae8899475/zerolend.png",
