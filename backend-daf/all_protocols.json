@@ -886,22 +886,22 @@
   "logo": "https://images.ctfassets.net/t3wqy70tc3bv/4cIP56xUCfhgaqmMzDeCMD/03d7201e7ff61ab8816864799a459338/SWEAT_CIRCLE_LOGO.png",
   "rewards": [
     {
-      "severity": "high",
+      "severity": null,
       "maxReward": null,
       "minReward": null,
-      "fixedReward": 25000,
-      "payout": null,
+      "fixedReward": null,
+      "payout": "USD 50,000 to USD $2,000,000",
       "assetType": "smart_contract",
-      "level": null
+      "level": "critical"
     },
     {
-      "severity": "critical",
-      "maxReward": 2000000,
-      "minReward": 50000,
+      "severity": null,
+      "maxReward": null,
+      "minReward": null,
       "fixedReward": null,
-      "payout": null,
+      "payout": "USD $25,000",
       "assetType": "smart_contract",
-      "level": null
+      "level": "high"
     }
   ],
   "assetUrls": [
