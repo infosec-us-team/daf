@@ -4731,60 +4731,6 @@
   ]
 },
 {
-  "protocol": "icon",
-  "logo": "https://images.ctfassets.net/t3wqy70tc3bv/Ig6atE81zuZbq3VTA7GAx/31395c33216e2050beef7269a608cfb4/ICON_logo.jpeg",
-  "rewards": [
-    {
-      "severity": "critical",
-      "maxReward": 100000,
-      "minReward": null,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "blockchain_dlt",
-      "level": null
-    },
-    {
-      "severity": "high",
-      "maxReward": 25000,
-      "minReward": null,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "blockchain_dlt",
-      "level": null
-    },
-    {
-      "severity": "medium",
-      "maxReward": 5000,
-      "minReward": null,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "blockchain_dlt",
-      "level": null
-    },
-    {
-      "severity": "low",
-      "maxReward": 1000,
-      "minReward": null,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "blockchain_dlt",
-      "level": null
-    },
-    {
-      "severity": "critical",
-      "maxReward": 100000,
-      "minReward": null,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    }
-  ],
-  "assetUrls": [
-    "https://github.com/icon-project/goloop"
-  ]
-},
-{
   "protocol": "resonate",
   "logo": "https://images.ctfassets.net/t3wqy70tc3bv/4jvlJuHsyVaQIZnGgijmjc/84bb3df0eaef2725bb1390584fc7e10f/Resonate_Logo_Small.png",
   "rewards": [
@@ -7142,6 +7088,15 @@
       "maxReward": null,
       "minReward": null,
       "fixedReward": 2000,
+      "payout": null,
+      "assetType": "blockchain_dlt",
+      "level": null
+    },
+    {
+      "severity": "medium",
+      "maxReward": null,
+      "minReward": null,
+      "fixedReward": 1000,
       "payout": null,
       "assetType": "blockchain_dlt",
       "level": null
