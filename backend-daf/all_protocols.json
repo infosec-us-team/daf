@@ -5557,7 +5557,7 @@
       "severity": "critical",
       "maxReward": null,
       "minReward": null,
-      "fixedReward": 75000,
+      "fixedReward": 15000,
       "payout": null,
       "assetType": "blockchain_dlt",
       "level": null
@@ -5566,7 +5566,7 @@
       "severity": "high",
       "maxReward": null,
       "minReward": null,
-      "fixedReward": 25000,
+      "fixedReward": 10000,
       "payout": null,
       "assetType": "blockchain_dlt",
       "level": null
