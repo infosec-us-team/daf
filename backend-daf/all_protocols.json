@@ -441,6 +441,129 @@
   ]
 },
 {
+  "protocol": "thegraph",
+  "logo": "https://images.ctfassets.net/t3wqy70tc3bv/2L62ScwrnMTV5zczetmm3N/3441bc33007755cf6d8865db69d0d50e/the-graph-grt-logo_copy.png",
+  "rewards": [
+    {
+      "severity": "critical",
+      "maxReward": 2500000,
+      "minReward": null,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "blockchain_dlt",
+      "level": null
+    },
+    {
+      "severity": "high",
+      "maxReward": 200000,
+      "minReward": null,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "blockchain_dlt",
+      "level": null
+    },
+    {
+      "severity": "medium",
+      "maxReward": 20000,
+      "minReward": null,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "blockchain_dlt",
+      "level": null
+    },
+    {
+      "severity": "low",
+      "maxReward": 5000,
+      "minReward": null,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "blockchain_dlt",
+      "level": null
+    },
+    {
+      "severity": "critical",
+      "maxReward": 2500000,
+      "minReward": null,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "smart_contract",
+      "level": null
+    },
+    {
+      "severity": "high",
+      "maxReward": 200000,
+      "minReward": null,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "smart_contract",
+      "level": null
+    },
+    {
+      "severity": "medium",
+      "maxReward": 20000,
+      "minReward": null,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "smart_contract",
+      "level": null
+    },
+    {
+      "severity": "low",
+      "maxReward": 5000,
+      "minReward": null,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "smart_contract",
+      "level": null
+    },
+    {
+      "severity": "critical",
+      "maxReward": 50000,
+      "minReward": null,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "websites_and_applications",
+      "level": null
+    },
+    {
+      "severity": "high",
+      "maxReward": 20000,
+      "minReward": null,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "websites_and_applications",
+      "level": null
+    },
+    {
+      "severity": "medium",
+      "maxReward": 5000,
+      "minReward": null,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "websites_and_applications",
+      "level": null
+    },
+    {
+      "severity": "low",
+      "maxReward": null,
+      "minReward": null,
+      "fixedReward": 1000,
+      "payout": null,
+      "assetType": "websites_and_applications",
+      "level": null
+    }
+  ],
+  "assetUrls": [
+    "https://github.com/edgeandnode/gateway",
+    "https://github.com/graphprotocol/AllocationOpt.jl",
+    "https://github.com/graphprotocol/block-oracle",
+    "https://github.com/graphprotocol/graph-node",
+    "https://github.com/graphprotocol/indexer",
+    "https://github.com/streamingfast/firehose-core",
+    "https://github.com/streamingfast/substreams"
+  ]
+},
+{
   "protocol": "zksync",
   "logo": "https://images.ctfassets.net/t3wqy70tc3bv/BVBU3VYmZ7reZRrExTrGp/ba2e745ef785db7f3bae88ea8ba8523f/ZKTokenBlack.png",
   "rewards": [
