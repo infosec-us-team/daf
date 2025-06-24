@@ -837,7 +837,7 @@
 },
 {
   "protocol": "lido",
-  "logo": "https://images.ctfassets.net/t3wqy70tc3bv/6JB8AzsXTZHbkUVneVGU7c/3a54aad9ba729b1e0082a5c6d76b6d61/LDO__1_.png",
+  "logo": "https://images.ctfassets.net/t3wqy70tc3bv/62hsATkPdR14taAS7FTlXW/2b3efcb09394982db6e67d0b028a271c/G2czctJJ_400x400.png",
   "rewards": [
     {
       "severity": "critical",
@@ -913,7 +913,25 @@
     }
   ],
   "assetUrls": [
-    "https://github.com/lidofinance/core"
+    "https://github.com/lidofinance/aave-delivery-infrastructure",
+    "https://github.com/lidofinance/aragon-apps",
+    "https://github.com/lidofinance/community-staking-module",
+    "https://github.com/lidofinance/core",
+    "https://github.com/lidofinance/dual-governance",
+    "https://github.com/lidofinance/easy-track",
+    "https://github.com/lidofinance/gate-seals",
+    "https://github.com/lidofinance/governance-crosschain-bridges",
+    "https://github.com/lidofinance/lido-council-daemon",
+    "https://github.com/lidofinance/lido-keys-api",
+    "https://github.com/lidofinance/lido-l2",
+    "https://github.com/lidofinance/lido-l2-with-steth",
+    "https://github.com/lidofinance/lido-oracle",
+    "https://github.com/lidofinance/lido-vesting-escrow",
+    "https://github.com/lidofinance/mev-boost-relay-allowed-list",
+    "https://github.com/lidofinance/onchain-mon",
+    "https://github.com/lidofinance/oz-merkle-tree",
+    "https://github.com/lidofinance/stonks",
+    "https://github.com/lidofinance/validator-ejector"
   ]
 },
 {
