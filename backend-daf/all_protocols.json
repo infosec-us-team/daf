@@ -5806,42 +5806,6 @@
   ]
 },
 {
-  "protocol": "euphrates",
-  "logo": "https://images.ctfassets.net/t3wqy70tc3bv/4dwmB92yI66o3thda1EtJ9/b835e154091c6ea5de108996e86fd043/Euphrates_Logo_E_gradient.png",
-  "rewards": [
-    {
-      "severity": "critical",
-      "maxReward": 50000,
-      "minReward": 15000,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "high",
-      "maxReward": 10000,
-      "minReward": 2000,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "medium",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 1500,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    }
-  ],
-  "assetUrls": [
-    "https://github.com/AcalaNetwork/Euphrates"
-  ]
-},
-{
   "protocol": "alephzero",
   "logo": "https://images.ctfassets.net/t3wqy70tc3bv/ijqPWUm6i7qSGMKP6FJvR/312102e9caea0fea40c3573ffff31189/Aleph_Zero_logo.jpeg",
   "rewards": [
