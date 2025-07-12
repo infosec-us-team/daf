@@ -6846,24 +6846,6 @@
       "level": null
     },
     {
-      "severity": "high",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 4000,
-      "payout": null,
-      "assetType": "blockchain_dlt",
-      "level": null
-    },
-    {
-      "severity": "medium",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 1200,
-      "payout": null,
-      "assetType": "blockchain_dlt",
-      "level": null
-    },
-    {
       "severity": "critical",
       "maxReward": null,
       "minReward": null,
@@ -6892,7 +6874,7 @@
     }
   ],
   "assetUrls": [
-    "https://github.com/bifrost-finance/bifrost"
+    "https://github.com/bifrost-io/bifrost"
   ]
 },
 {
