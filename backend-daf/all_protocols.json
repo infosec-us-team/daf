@@ -4174,33 +4174,6 @@
   ]
 },
 {
-  "protocol": "zerolend",
-  "logo": "https://images.ctfassets.net/t3wqy70tc3bv/3krwpy8yy3IaOV7zKhDMMt/a6c889f6174da2c0762e542ae8899475/zerolend.png",
-  "rewards": [
-    {
-      "severity": "critical",
-      "maxReward": 100000,
-      "minReward": 20000,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "high",
-      "maxReward": 20000,
-      "minReward": 5000,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    }
-  ],
-  "assetUrls": [
-    "https://github.com/zerolend/zerolend-deployments"
-  ]
-},
-{
   "protocol": "omron",
   "logo": "https://images.ctfassets.net/t3wqy70tc3bv/2pTpT9c23a8EsYWlTP0HHD/aac2962a431a6d01b66dff78ccbf2e46/Inference_Labs.png",
   "rewards": [
