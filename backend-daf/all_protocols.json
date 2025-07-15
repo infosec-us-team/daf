@@ -6670,6 +6670,87 @@
   ]
 },
 {
+  "protocol": "zano",
+  "logo": "https://images.ctfassets.net/t3wqy70tc3bv/56nkDjrefTYbi6qvtdq0UL/4443f936ab5d2b9f7833967cd7de2e04/Zano.png",
+  "rewards": [
+    {
+      "severity": "critical",
+      "maxReward": 20000,
+      "minReward": 5000,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "blockchain_dlt",
+      "level": null
+    },
+    {
+      "severity": "high",
+      "maxReward": 4000,
+      "minReward": null,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "blockchain_dlt",
+      "level": null
+    },
+    {
+      "severity": "medium",
+      "maxReward": 2000,
+      "minReward": null,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "blockchain_dlt",
+      "level": null
+    },
+    {
+      "severity": "low",
+      "maxReward": null,
+      "minReward": null,
+      "fixedReward": 1000,
+      "payout": null,
+      "assetType": "blockchain_dlt",
+      "level": null
+    },
+    {
+      "severity": "critical",
+      "maxReward": 10000,
+      "minReward": 4000,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "websites_and_applications",
+      "level": null
+    },
+    {
+      "severity": "high",
+      "maxReward": 3000,
+      "minReward": null,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "websites_and_applications",
+      "level": null
+    },
+    {
+      "severity": "medium",
+      "maxReward": 2000,
+      "minReward": null,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "websites_and_applications",
+      "level": null
+    },
+    {
+      "severity": "low",
+      "maxReward": null,
+      "minReward": null,
+      "fixedReward": 1000,
+      "payout": null,
+      "assetType": "websites_and_applications",
+      "level": null
+    }
+  ],
+  "assetUrls": [
+    "https://github.com/hyle-team/zano"
+  ]
+},
+{
   "protocol": "quadrata",
   "logo": "https://images.ctfassets.net/t3wqy70tc3bv/2d34GKfB7A8pJ4TgjawG4I/f9ace5c2fe8dc506264f4f0569f2a362/x2HFJeB8_400x400.png",
   "rewards": [
