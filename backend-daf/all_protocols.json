@@ -668,8 +668,8 @@
   "rewards": [
     {
       "severity": "critical",
-      "maxReward": 2000000,
-      "minReward": 50000,
+      "maxReward": 500000,
+      "minReward": 30000,
       "fixedReward": null,
       "payout": null,
       "assetType": "blockchain_dlt",
@@ -677,8 +677,8 @@
     },
     {
       "severity": "high",
-      "maxReward": 40000,
-      "minReward": 10000,
+      "maxReward": 25000,
+      "minReward": 7000,
       "fixedReward": null,
       "payout": null,
       "assetType": "blockchain_dlt",
@@ -686,8 +686,8 @@
     },
     {
       "severity": "medium",
-      "maxReward": 10000,
-      "minReward": 5000,
+      "maxReward": 6500,
+      "minReward": 1300,
       "fixedReward": null,
       "payout": null,
       "assetType": "blockchain_dlt",
@@ -704,7 +704,7 @@
     },
     {
       "severity": "critical",
-      "maxReward": 100000,
+      "maxReward": 70000,
       "minReward": 10000,
       "fixedReward": null,
       "payout": null,
@@ -3946,78 +3946,6 @@
   ],
   "assetUrls": [
     "https://github.com/Gearbox-protocol/security"
-  ]
-},
-{
-  "protocol": "tranchess",
-  "logo": "https://images.ctfassets.net/t3wqy70tc3bv/6NNBYNKONDM4mwNU4Y5ik/a719c3c7861f9b647c9d012884236356/Tranchess_logo.jpg",
-  "rewards": [
-    {
-      "severity": "high",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 20000,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "medium",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 5000,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "low",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 1000,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "critical",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 5000,
-      "payout": null,
-      "assetType": "websites_and_applications",
-      "level": null
-    },
-    {
-      "severity": "high",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 3000,
-      "payout": null,
-      "assetType": "websites_and_applications",
-      "level": null
-    },
-    {
-      "severity": "medium",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 1000,
-      "payout": null,
-      "assetType": "websites_and_applications",
-      "level": null
-    },
-    {
-      "severity": "critical",
-      "maxReward": 200000,
-      "minReward": null,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    }
-  ],
-  "assetUrls": [
-    "https://github.com/tranchess/contract-core"
   ]
 },
 {
@@ -7397,96 +7325,6 @@
   ],
   "assetUrls": [
     "https://github.com/yamatoprotocol/core"
-  ]
-},
-{
-  "protocol": "forta",
-  "logo": "https://images.ctfassets.net/t3wqy70tc3bv/7AbtICUyrsiNIzIHam91pr/3b36623100ca7d2a8307bbc0d4b6f040/Forta_logo.jpeg",
-  "rewards": [
-    {
-      "severity": "critical",
-      "maxReward": 10000,
-      "minReward": 8000,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "blockchain_dlt",
-      "level": null
-    },
-    {
-      "severity": "high",
-      "maxReward": 4000,
-      "minReward": 2000,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "blockchain_dlt",
-      "level": null
-    },
-    {
-      "severity": "medium",
-      "maxReward": 3000,
-      "minReward": 1000,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "blockchain_dlt",
-      "level": null
-    },
-    {
-      "severity": "critical",
-      "maxReward": 80000,
-      "minReward": 30000,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "high",
-      "maxReward": 15000,
-      "minReward": 8000,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "medium",
-      "maxReward": 3000,
-      "minReward": 1000,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "smart_contract",
-      "level": null
-    },
-    {
-      "severity": "critical",
-      "maxReward": 30000,
-      "minReward": 10000,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "websites_and_applications",
-      "level": null
-    },
-    {
-      "severity": "high",
-      "maxReward": 8000,
-      "minReward": 4000,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "websites_and_applications",
-      "level": null
-    },
-    {
-      "severity": "medium",
-      "maxReward": 3000,
-      "minReward": 1000,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "websites_and_applications",
-      "level": null
-    }
-  ],
-  "assetUrls": [
-    "https://github.com/forta-network/forta-node"
   ]
 },
 {
