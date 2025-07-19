@@ -663,102 +663,6 @@
   ]
 },
 {
-  "protocol": "babylon-labs",
-  "logo": "https://images.ctfassets.net/t3wqy70tc3bv/5ZuVO0D8rx9fzSoB5UVsx4/e5f38f1b93be6cb32b6255c21f6db81c/NEW_Babylon_Labs.png",
-  "rewards": [
-    {
-      "severity": "critical",
-      "maxReward": 500000,
-      "minReward": 30000,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "blockchain_dlt",
-      "level": null
-    },
-    {
-      "severity": "high",
-      "maxReward": 25000,
-      "minReward": 7000,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "blockchain_dlt",
-      "level": null
-    },
-    {
-      "severity": "medium",
-      "maxReward": 6500,
-      "minReward": 1300,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "blockchain_dlt",
-      "level": null
-    },
-    {
-      "severity": "low",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 1000,
-      "payout": null,
-      "assetType": "blockchain_dlt",
-      "level": null
-    },
-    {
-      "severity": "critical",
-      "maxReward": 70000,
-      "minReward": 10000,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "websites_and_applications",
-      "level": null
-    },
-    {
-      "severity": "high",
-      "maxReward": 7500,
-      "minReward": null,
-      "fixedReward": null,
-      "payout": null,
-      "assetType": "websites_and_applications",
-      "level": null
-    },
-    {
-      "severity": "medium",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 3000,
-      "payout": null,
-      "assetType": "websites_and_applications",
-      "level": null
-    },
-    {
-      "severity": "low",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 1000,
-      "payout": null,
-      "assetType": "websites_and_applications",
-      "level": null
-    }
-  ],
-  "assetUrls": [
-    "https://github.com/babylonlabs-io/babylon",
-    "https://github.com/babylonlabs-io/babylon-proto-ts",
-    "https://github.com/babylonlabs-io/babylon-staking-indexer",
-    "https://github.com/babylonlabs-io/btc-staker",
-    "https://github.com/babylonlabs-io/btc-staking-ts",
-    "https://github.com/babylonlabs-io/cli-tools",
-    "https://github.com/babylonlabs-io/core-ui",
-    "https://github.com/babylonlabs-io/covenant-emulator",
-    "https://github.com/babylonlabs-io/covenant-signer",
-    "https://github.com/babylonlabs-io/finality-provider",
-    "https://github.com/babylonlabs-io/simple-staking",
-    "https://github.com/babylonlabs-io/staking-api-service",
-    "https://github.com/babylonlabs-io/staking-expiry-checker",
-    "https://github.com/babylonlabs-io/staking-queue-client",
-    "https://github.com/babylonlabs-io/vigilante",
-    "https://github.com/babylonlabs-io/wallet-connector"
-  ]
-},
-{
   "protocol": "sweateconomy",
   "logo": "https://images.ctfassets.net/t3wqy70tc3bv/4cIP56xUCfhgaqmMzDeCMD/03d7201e7ff61ab8816864799a459338/SWEAT_CIRCLE_LOGO.png",
   "rewards": [
@@ -2094,6 +1998,102 @@
   ],
   "assetUrls": [
     "https://github.com/firedancer-io/firedancer"
+  ]
+},
+{
+  "protocol": "babylon-labs",
+  "logo": "https://images.ctfassets.net/t3wqy70tc3bv/5ZuVO0D8rx9fzSoB5UVsx4/e5f38f1b93be6cb32b6255c21f6db81c/NEW_Babylon_Labs.png",
+  "rewards": [
+    {
+      "severity": "critical",
+      "maxReward": 500000,
+      "minReward": 30000,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "blockchain_dlt",
+      "level": null
+    },
+    {
+      "severity": "high",
+      "maxReward": 25000,
+      "minReward": 7000,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "blockchain_dlt",
+      "level": null
+    },
+    {
+      "severity": "medium",
+      "maxReward": 6500,
+      "minReward": 1300,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "blockchain_dlt",
+      "level": null
+    },
+    {
+      "severity": "low",
+      "maxReward": null,
+      "minReward": null,
+      "fixedReward": 1000,
+      "payout": null,
+      "assetType": "blockchain_dlt",
+      "level": null
+    },
+    {
+      "severity": "critical",
+      "maxReward": 70000,
+      "minReward": 10000,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "websites_and_applications",
+      "level": null
+    },
+    {
+      "severity": "high",
+      "maxReward": 7500,
+      "minReward": null,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "websites_and_applications",
+      "level": null
+    },
+    {
+      "severity": "medium",
+      "maxReward": null,
+      "minReward": null,
+      "fixedReward": 3000,
+      "payout": null,
+      "assetType": "websites_and_applications",
+      "level": null
+    },
+    {
+      "severity": "low",
+      "maxReward": null,
+      "minReward": null,
+      "fixedReward": 1000,
+      "payout": null,
+      "assetType": "websites_and_applications",
+      "level": null
+    }
+  ],
+  "assetUrls": [
+    "https://github.com/babylonlabs-io/babylon",
+    "https://github.com/babylonlabs-io/babylon-proto-ts",
+    "https://github.com/babylonlabs-io/babylon-staking-indexer",
+    "https://github.com/babylonlabs-io/btc-staker",
+    "https://github.com/babylonlabs-io/btc-staking-ts",
+    "https://github.com/babylonlabs-io/cli-tools",
+    "https://github.com/babylonlabs-io/core-ui",
+    "https://github.com/babylonlabs-io/covenant-emulator",
+    "https://github.com/babylonlabs-io/covenant-signer",
+    "https://github.com/babylonlabs-io/finality-provider",
+    "https://github.com/babylonlabs-io/simple-staking",
+    "https://github.com/babylonlabs-io/staking-api-service",
+    "https://github.com/babylonlabs-io/staking-expiry-checker",
+    "https://github.com/babylonlabs-io/staking-queue-client",
+    "https://github.com/babylonlabs-io/vigilante",
+    "https://github.com/babylonlabs-io/wallet-connector"
   ]
 },
 {
@@ -5418,36 +5418,6 @@
   ]
 },
 {
-  "protocol": "horizen",
-  "logo": "https://images.ctfassets.net/t3wqy70tc3bv/2rnWAKLVaJaIUw2o5BluPY/8f8432f986a560f6e1a20e5d7d99ce7f/Horizen-icon-dark-21e75d19af5bdad4b2faeebdcfef90bf.png",
-  "rewards": [
-    {
-      "severity": "critical",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 15000,
-      "payout": null,
-      "assetType": "blockchain_dlt",
-      "level": null
-    },
-    {
-      "severity": "high",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 10000,
-      "payout": null,
-      "assetType": "blockchain_dlt",
-      "level": null
-    }
-  ],
-  "assetUrls": [
-    "https://github.com/HorizenOfficial/eon",
-    "https://github.com/HorizenOfficial/Sidechains-SDK",
-    "https://github.com/HorizenOfficial/Sparkz",
-    "https://github.com/HorizenOfficial/zen"
-  ]
-},
-{
   "protocol": "kinesis-bridge-on-kadena",
   "logo": "https://images.ctfassets.net/t3wqy70tc3bv/3JbCmvAmy6mloa0cxuVBgw/f7f0dd0875dd7a275bf9393d73d3f6d1/Screenshot_2025-01-23_at_10.19.49.png",
   "rewards": [
@@ -5725,6 +5695,36 @@
   ],
   "assetUrls": [
     "https://github.com/metastreet-labs/metastreet-contracts-v2"
+  ]
+},
+{
+  "protocol": "horizen",
+  "logo": "https://images.ctfassets.net/t3wqy70tc3bv/2rnWAKLVaJaIUw2o5BluPY/8f8432f986a560f6e1a20e5d7d99ce7f/Horizen-icon-dark-21e75d19af5bdad4b2faeebdcfef90bf.png",
+  "rewards": [
+    {
+      "severity": "critical",
+      "maxReward": null,
+      "minReward": null,
+      "fixedReward": 15000,
+      "payout": null,
+      "assetType": "blockchain_dlt",
+      "level": null
+    },
+    {
+      "severity": "high",
+      "maxReward": null,
+      "minReward": null,
+      "fixedReward": 10000,
+      "payout": null,
+      "assetType": "blockchain_dlt",
+      "level": null
+    }
+  ],
+  "assetUrls": [
+    "https://github.com/HorizenOfficial/eon",
+    "https://github.com/HorizenOfficial/Sidechains-SDK",
+    "https://github.com/HorizenOfficial/Sparkz",
+    "https://github.com/HorizenOfficial/zen"
   ]
 },
 {
