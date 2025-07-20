@@ -5718,10 +5718,60 @@
       "payout": null,
       "assetType": "blockchain_dlt",
       "level": null
+    },
+    {
+      "severity": "critical",
+      "maxReward": null,
+      "minReward": null,
+      "fixedReward": 50000,
+      "payout": null,
+      "assetType": "smart_contract",
+      "level": null
+    },
+    {
+      "severity": "high",
+      "maxReward": null,
+      "minReward": null,
+      "fixedReward": 15000,
+      "payout": null,
+      "assetType": "smart_contract",
+      "level": null
+    },
+    {
+      "severity": "medium",
+      "maxReward": null,
+      "minReward": null,
+      "fixedReward": 2000,
+      "payout": null,
+      "assetType": "smart_contract",
+      "level": null
+    },
+    {
+      "severity": "critical",
+      "maxReward": null,
+      "minReward": null,
+      "fixedReward": 15000,
+      "payout": null,
+      "assetType": "websites_and_applications",
+      "level": null
+    },
+    {
+      "severity": "high",
+      "maxReward": null,
+      "minReward": null,
+      "fixedReward": 5000,
+      "payout": null,
+      "assetType": "websites_and_applications",
+      "level": null
     }
   ],
   "assetUrls": [
     "https://github.com/HorizenOfficial/eon",
+    "https://github.com/HorizenOfficial/horizen-migration",
+    "https://github.com/HorizenOfficial/horizen-migration-check",
+    "https://github.com/HorizenOfficial/horizen-migration-cli",
+    "https://github.com/HorizenOfficial/horizen-migration-ledger-signing-tool",
+    "https://github.com/HorizenOfficial/horizen-migration-signing-tool-private-key",
     "https://github.com/HorizenOfficial/Sidechains-SDK",
     "https://github.com/HorizenOfficial/Sparkz",
     "https://github.com/HorizenOfficial/zen"
