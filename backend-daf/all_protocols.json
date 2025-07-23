@@ -1798,7 +1798,7 @@
     {
       "severity": "high",
       "maxReward": 100000,
-      "minReward": 25000,
+      "minReward": null,
       "fixedReward": null,
       "payout": null,
       "assetType": "blockchain_dlt",
@@ -1834,7 +1834,7 @@
     {
       "severity": "high",
       "maxReward": 50000,
-      "minReward": 10000,
+      "minReward": null,
       "fixedReward": null,
       "payout": null,
       "assetType": "smart_contract",
@@ -1870,7 +1870,7 @@
     {
       "severity": "high",
       "maxReward": 30000,
-      "minReward": 10000,
+      "minReward": null,
       "fixedReward": null,
       "payout": null,
       "assetType": "websites_and_applications",
@@ -5824,24 +5824,6 @@
       "severity": "critical",
       "maxReward": null,
       "minReward": null,
-      "fixedReward": 15000,
-      "payout": null,
-      "assetType": "blockchain_dlt",
-      "level": null
-    },
-    {
-      "severity": "high",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 10000,
-      "payout": null,
-      "assetType": "blockchain_dlt",
-      "level": null
-    },
-    {
-      "severity": "critical",
-      "maxReward": null,
-      "minReward": null,
       "fixedReward": 50000,
       "payout": null,
       "assetType": "smart_contract",
@@ -5885,15 +5867,11 @@
     }
   ],
   "assetUrls": [
-    "https://github.com/HorizenOfficial/eon",
     "https://github.com/HorizenOfficial/horizen-migration",
     "https://github.com/HorizenOfficial/horizen-migration-check",
     "https://github.com/HorizenOfficial/horizen-migration-cli",
     "https://github.com/HorizenOfficial/horizen-migration-ledger-signing-tool",
-    "https://github.com/HorizenOfficial/horizen-migration-signing-tool-private-key",
-    "https://github.com/HorizenOfficial/Sidechains-SDK",
-    "https://github.com/HorizenOfficial/Sparkz",
-    "https://github.com/HorizenOfficial/zen"
+    "https://github.com/HorizenOfficial/horizen-migration-signing-tool-private-key"
   ]
 },
 {
@@ -7023,18 +7001,18 @@
     },
     {
       "severity": "critical",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 20000,
+      "maxReward": 5000,
+      "minReward": 2000,
+      "fixedReward": null,
       "payout": null,
       "assetType": "websites_and_applications",
       "level": null
     },
     {
       "severity": "high",
-      "maxReward": null,
-      "minReward": null,
-      "fixedReward": 4000,
+      "maxReward": 2000,
+      "minReward": 1000,
+      "fixedReward": null,
       "payout": null,
       "assetType": "websites_and_applications",
       "level": null
@@ -7043,7 +7021,7 @@
       "severity": "medium",
       "maxReward": null,
       "minReward": null,
-      "fixedReward": 1200,
+      "fixedReward": 1000,
       "payout": null,
       "assetType": "websites_and_applications",
       "level": null
