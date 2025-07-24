@@ -1574,8 +1574,10 @@
     }
   ],
   "assetUrls": [
-    "https://github.com/maticnetwork/bor",
-    "https://github.com/maticnetwork/heimdall"
+    "https://github.com/0xPolygon/cometbft",
+    "https://github.com/0xPolygon/cosmos-sdk",
+    "https://github.com/0xPolygon/heimdall-v2",
+    "https://github.com/maticnetwork/bor"
   ]
 },
 {
@@ -6994,6 +6996,15 @@
       "severity": "high",
       "maxReward": 20000,
       "minReward": 5000,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "blockchain_dlt",
+      "level": null
+    },
+    {
+      "severity": "medium",
+      "maxReward": 5000,
+      "minReward": 1000,
       "fixedReward": null,
       "payout": null,
       "assetType": "blockchain_dlt",
