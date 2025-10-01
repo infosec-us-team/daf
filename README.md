@@ -112,7 +112,7 @@ cd ../frontend-daf/src/
 python3 -m http.server 8000
 ```
 
-### Monitor target repositories
+### Monitor target protocols
 
 **Step 1-** Create a list of targets at `./backend-daf/targets.json` in the following format:
 
@@ -142,7 +142,7 @@ cd backend-daf
 python3 ./scan-target-prs.py
 ```
 
-**Step 3-** Generate a static site with the data.
+**Step 4-** Generate a static site with the data.
 
 ```bash
 python3 ./create-static-site-for-target-protocols.py
@@ -150,7 +150,7 @@ python3 ./create-static-site-for-target-protocols.py
 
 You should have a static site at `./frontend-daf/src/targets.html`
 
-**Step 4-** Run an HTTP server so you can access the site with all devices in the local network.
+**Step 5-** Run an HTTP server so you can access the site with all devices in the local network.
 
 ```bash
 # cd out of backend-daf and into frontend-daf
@@ -159,6 +159,16 @@ cd ../frontend-daf/src/
 # run the http server
 python3 -m http.server 8000
 ```
+
+### Monitor target repositories
+
+If you already followed the "Monitor target protocols" section but prefer a tailored approach or want to reduce clutter, you are free to modify which repositories to scan for pull requests.
+
+For example, we prefer to skip repositories related to the dApp's website UI.
+
+To do so, modify the JSON file located at `backend-daf/target_protocols.json` and remove or add repositories in the `assetUrls` object of the target protocol.
+
+Next time, you can skip steps 1 and 2. Start at step 3 (scanning PRs merged today), then proceed to steps 4 and 5 (generate the static site and serve it).
 
 # Using a cron job to run periodically
 
