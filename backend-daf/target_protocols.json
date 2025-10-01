@@ -1,0 +1,94 @@
+[
+{
+  "protocol": "layerzero",
+  "logo": "https://images.ctfassets.net/t3wqy70tc3bv/3UXQcPOIAaOkE2QBCasSKa/14893bedf55bdb191e4cf99a67203e85/LayerZero_logo.jpeg",
+  "rewards": [
+    {
+      "severity": "critical",
+      "maxReward": 15000000,
+      "minReward": null,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "smart_contract",
+      "level": null
+    },
+    {
+      "severity": "high",
+      "maxReward": 250000,
+      "minReward": null,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "smart_contract",
+      "level": null
+    },
+    {
+      "severity": "medium",
+      "maxReward": 25000,
+      "minReward": null,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "smart_contract",
+      "level": null
+    },
+    {
+      "severity": "low",
+      "maxReward": 10000,
+      "minReward": null,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "smart_contract",
+      "level": null
+    }
+  ],
+  "assetUrls": [
+    "https://github.com/LayerZero-Labs/devtools",
+    "https://github.com/LayerZero-Labs/solidity-examples"
+  ]
+},
+{
+  "protocol": "reserve",
+  "logo": "https://images.ctfassets.net/t3wqy70tc3bv/2N1kPNfWAcD0jloxOqF4Cf/6e27b7ac7afb4180a3ade1e9d17bc4d5/reserve__1_.png",
+  "rewards": [
+    {
+      "severity": "critical",
+      "maxReward": 10000000,
+      "minReward": 100000,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "smart_contract",
+      "level": null
+    },
+    {
+      "severity": "high",
+      "maxReward": 100000,
+      "minReward": 10000,
+      "fixedReward": null,
+      "payout": null,
+      "assetType": "smart_contract",
+      "level": null
+    },
+    {
+      "severity": "medium",
+      "maxReward": null,
+      "minReward": null,
+      "fixedReward": 5000,
+      "payout": null,
+      "assetType": "smart_contract",
+      "level": null
+    },
+    {
+      "severity": "low",
+      "maxReward": null,
+      "minReward": null,
+      "fixedReward": 1000,
+      "payout": null,
+      "assetType": "smart_contract",
+      "level": null
+    }
+  ],
+  "assetUrls": [
+    "https://github.com/reserve-protocol/protocol",
+    "https://github.com/reserve-protocol/reserve-index-dtf"
+  ]
+}
+]
