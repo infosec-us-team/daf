@@ -21,7 +21,7 @@ HEADERS = {"Authorization": f"token {GITHUB_TOKEN}"}
 # Fetch all merged pull requests for a given repository
 def fetch_merged_prs(repo):
 
-    url = f"https://api.github.com/repos/{repo}/pulls?state=closed&sort=updated&direction=desc"
+    url = f"https://api.github.com/repos/{repo}/pulls?state=closed&sort=updated&direction=desc&per_page=99"
     print(f"Fetching PRs in {repo}")
 
     # 0.5 seconds delay to be nice to GitHub API
@@ -45,7 +45,7 @@ def fetch_merged_prs(repo):
 # Fetch commits with specific fields from a single merged pull request
 def fetch_filtered_commits_from_pr(repo, pr_number):
 
-    url = f"https://api.github.com/repos/{repo}/pulls/{pr_number}/commits"
+    url = f"https://api.github.com/repos/{repo}/pulls/{pr_number}/commits?per_page=99"
     print(f"Fetching commits for PR #{pr_number} in {repo}")
 
     # 0.5 seconds delay to be nice to GitHub API
@@ -122,7 +122,7 @@ def scan_repos(protocols):
             all_data.append(protocol)
 
     # Save all PR data
-    with open("./all_prs.json", "w") as file:
+    with open("./target_prs.json", "w") as file:
         file.write(str(json.dumps(all_data)))
     
 # Script entry point
@@ -130,8 +130,9 @@ if __name__ == "__main__":
 
     # List of repositories to scan
     protocols = []
-    with open('./all_protocols.json', 'r') as f:
+    with open('./target_protocols.json', 'r') as f:
         protocols = json.load(f)
 
     # Scan!
     scan_repos(protocols)
+
