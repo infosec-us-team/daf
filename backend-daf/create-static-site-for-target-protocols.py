@@ -82,12 +82,12 @@ if __name__ == "__main__":
 
             for reward in reward_categories[assetType]:
                 # Amount
-                if reward["maxReward"]:
+                if "maxReward" in reward and reward["maxReward"]:
                     amount = f"<${reward['maxReward']:,.0f}"
-                elif reward["fixedReward"]:
+                elif "fixedReward" in reward and reward["fixedReward"]:
                     amount = f"${reward['fixedReward']:,.0f}"
                 # Amount Backwards-Compatibility (Immunefi used to use "Payout" instead of "fixedReward" and "maxReward")
-                elif reward["payout"]:
+                elif "payout" in reward and reward["payout"]:
                     amount = reward["payout"]
                 # Severity
                 if reward["severity"] == "critical":
