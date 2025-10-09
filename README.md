@@ -114,27 +114,22 @@ python3 -m http.server 8000
 
 ### Monitor target protocols
 
-**Step 1-** Create a list of targets at `./backend-daf/targets.json` in the following format:
-
-```json
-{
-  "targets": [
-    "layerzero",
-    "reserve"
-  ]
-}
-```
-
-> Use the ID of the bug bounty program, as seen in Immunefi's API or ibb.
-
-**Step 2-** Get an updated list of assets in scope from Immunefi.
+**Step 1-** Add a target protocol using a single command.
 
 ```bash
 # First, cd into `./backend-daf/`
 cd backend-daf
 
-./read-target-protocols-from-immunefi.sh
+./add-protocol-from-immunefi.sh layerzero
+# or another program id from Immunefi/ibb, e.g.:
+./add-protocol-from-immunefi.sh listadao
 ```
+
+This fetches the program logo, rewards, and GitHub repositories in scope and appends them to `backend-daf/target_protocols.json`.
+
+**Step 2-** (Optional) Customize repositories.
+
+You can add or remove GitHub repositories for any target directly in `backend-daf/target_protocols.json` under the `assetUrls` array of the protocol you added.
 
 **Step 3:** Scan for pull requests merged today in your target's GitHub repositories.
 

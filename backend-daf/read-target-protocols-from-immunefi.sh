@@ -43,31 +43,30 @@ for target_name in "${target_protocols[@]}"; do
     echo "Fetching the URLs of all assets in scope for $target_name"
     urls=$(ibb "$target_name" assets url | grep -oP 'https://github\.com(?:/[^/]+){2}' | tr -d ',"' | sort | uniq)
 
-    # If URLs are found, fetch the rewards and program overview
-    if [[ -n $urls ]]; then
-      echo "Fetching BBP rewards for $target_name"
-      # Get reward information for the protocol
-      rewards=$(ibb "$target_name" rewards | jq '[.[] | {severity, maxReward, minReward, fixedReward, payout, assetType, level}]')
-      logo=$(ibb "$target_name" logo | jq '.[]' | tr -d '"')
-
-      # Create protocol data as a JSON object
-      protocol_data=$(jq -n \
-        --arg name "$target_name" \
-        --arg logo "$logo" \
-        --argjson rewards "$rewards" \
-        --argjson urls "$(printf '%s\n' "$urls" | uniq | jq -R . | jq -s .)" \
-        '{
-          protocol: $name,
-          logo: $logo,
-          rewards: $rewards,
-          assetUrls: $urls
-        }')
-
-      # Add protocol data to the JSON array
-      echo "$protocol_data," >>target_protocols.json
-    else
-      echo "No GitHub URLs found for $target_name, skipping..."
+    if [[ -z $urls ]]; then
+      urls=""
     fi
+
+    echo "Fetching BBP rewards for $target_name"
+    # Get reward information for the protocol
+    rewards=$(ibb "$target_name" rewards | jq '[.[] | {severity, maxReward, minReward, fixedReward, payout, assetType, level}]')
+    logo=$(ibb "$target_name" logo | jq '.[]' | tr -d '"')
+
+    # Create protocol data as a JSON object
+    protocol_data=$(jq -n \
+      --arg name "$target_name" \
+      --arg logo "$logo" \
+      --argjson rewards "$rewards" \
+      --argjson urls "$([[ -z $urls ]] && echo '[]' || printf '%s\n' "$urls" | uniq | jq -R . | jq -s .)" \
+      '{
+        protocol: $name,
+        logo: $logo,
+        rewards: $rewards,
+        assetUrls: $urls
+      }')
+
+    # Add protocol data to the JSON array
+    echo "$protocol_data," >>target_protocols.json
   else
     echo "Warning: Protocol '$target_name' not found in available protocols, skipping..."
   fi
