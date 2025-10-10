@@ -1337,52 +1337,50 @@ video {
   }
 }
 
-@media (prefers-color-scheme: dark) {
-  .dark\:bg-amber-400\/10 {
-    background-color: rgb(251 191 36 / 0.1);
-  }
+.dark\:bg-amber-400\/10 {
+  background-color: rgb(251 191 36 / 0.1);
+}
 
-  .dark\:bg-rose-400\/10 {
-    background-color: rgb(251 113 133 / 0.1);
-  }
+.dark\:bg-rose-400\/10 {
+  background-color: rgb(251 113 133 / 0.1);
+}
 
-  .dark\:bg-sky-400\/10 {
-    background-color: rgb(56 189 248 / 0.1);
-  }
+.dark\:bg-sky-400\/10 {
+  background-color: rgb(56 189 248 / 0.1);
+}
 
-  .dark\:text-amber-400 {
-    --tw-text-opacity: 1;
-    color: rgb(251 191 36 / var(--tw-text-opacity, 1));
-  }
+.dark\:text-amber-400 {
+  --tw-text-opacity: 1;
+  color: rgb(251 191 36 / var(--tw-text-opacity, 1));
+}
 
-  .dark\:text-emerald-400 {
-    --tw-text-opacity: 1;
-    color: rgb(52 211 153 / var(--tw-text-opacity, 1));
-  }
+.dark\:text-emerald-400 {
+  --tw-text-opacity: 1;
+  color: rgb(52 211 153 / var(--tw-text-opacity, 1));
+}
 
-  .dark\:text-rose-400 {
-    --tw-text-opacity: 1;
-    color: rgb(251 113 133 / var(--tw-text-opacity, 1));
-  }
+.dark\:text-rose-400 {
+  --tw-text-opacity: 1;
+  color: rgb(251 113 133 / var(--tw-text-opacity, 1));
+}
 
-  .dark\:text-sky-400 {
-    --tw-text-opacity: 1;
-    color: rgb(56 189 248 / var(--tw-text-opacity, 1));
-  }
+.dark\:text-sky-400 {
+  --tw-text-opacity: 1;
+  color: rgb(56 189 248 / var(--tw-text-opacity, 1));
+}
 
-  .dark\:ring-amber-400\/30 {
-    --tw-ring-color: rgb(251 191 36 / 0.3);
-  }
+.dark\:ring-amber-400\/30 {
+  --tw-ring-color: rgb(251 191 36 / 0.3);
+}
 
-  .dark\:ring-emerald-400\/30 {
-    --tw-ring-color: rgb(52 211 153 / 0.3);
-  }
+.dark\:ring-emerald-400\/30 {
+  --tw-ring-color: rgb(52 211 153 / 0.3);
+}
 
-  .dark\:ring-rose-500\/20 {
-    --tw-ring-color: rgb(244 63 94 / 0.2);
-  }
+.dark\:ring-rose-500\/20 {
+  --tw-ring-color: rgb(244 63 94 / 0.2);
+}
 
-  .dark\:ring-sky-400\/30 {
-    --tw-ring-color: rgb(56 189 248 / 0.3);
-  }
+.dark\:ring-sky-400\/30 {
+  --tw-ring-color: rgb(56 189 248 / 0.3);
 }
